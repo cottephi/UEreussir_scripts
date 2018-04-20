@@ -2,10 +2,7 @@ import random
 import sys
 import numpy as np
 import fractions
-
-def graph():
-  
-
+from graph import *
 
 difficulty = 1
 if len(sys.argv) == 2:
