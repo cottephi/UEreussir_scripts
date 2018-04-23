@@ -2,13 +2,60 @@ import random
 import sys
 import numpy as np
 import fractions
+import math
 from graph import *
+
+
+def get_xy(r):
+  sx = ""
+  sy = ""
+  fx = 0
+  fy = 0
+  signs = ["1","-1"]
+  sxy_possibles = ["\\sqrt{3}/2","\\frac{1}{2}","\\sqrt{2}/2"]
+  fxy_possibles = [math.sqrt(3)/2.,0.5,math.sqrt(2)/2.]
+  i = random.SystemRandom(0).randint(0,2)
+  sign = signs[random.SystemRandom(0).randint(0,1)]
+  sx = sign[:-1]+str(r)+sxy_possibles[i]
+  fx = str(sign)*r*fxy_possibles[i]
+  sign = signs[random.SystemRandom(0).randint(0,1)]
+  sy = sign[:-1]+str(r)+xy_possibles[abs(i-2)]
+  fy = str(sign)*r*fxy_possibles[abs(i-2)]
+  return [sx, sy, fx, fy]
+  
+def get_theta_r():  r = 0
+  stheta = ""
+  ftheta = 0
+  rmax = 50
+  theta_denoms = ["2","3","4","6"]
+  if method == "graph":
+    rmax = 3
+  r = random.SystemRandom(0).randint(1,rmax)
+  theta_denom = theta_denoms[random.SystemRandom(0).randint(0,3)]
+  theta_num = random.SystemRandom(0).randint(1,12)
+  while float(theta_num/int(theta_denom)) %1 == 0:
+    theta_denom = theta_denoms[random.SystemRandom(0).randint(0,3)]
+    theta_num = random.SystemRandom(0).randint(1,12)
+    
+  stheta = str(theta_num)+"\\pi/"+theta_denom
+  ftheta = float(theta_num*math.pi/int(theta_denom))
+    
+  return [r,stheta,ftheta]
 
 difficulty = 1
 if len(sys.argv) == 2:
   difficulty = int(sys.argv[1])
   
-N = random.SystemRandom(0).randint(1,difficulty)
+
+methods = ["coord","graph"]
+method = methods[random.SystemRandom(0).randint(0,2)]
+initials = ["xy","xr","yr","xtheta","ytheta","rtheta"]
+initial = initials[random.SystemRandom(0).randint(0,5)]
+
+  
+  
+
+
 M = random.SystemRandom(0).randint(1,difficulty)
 a = [ random.SystemRandom(0).randint(1,9) for i in range(0,N) ]
 b = [ random.SystemRandom(0).randint(-10,10) for i in range(0,N) ]
