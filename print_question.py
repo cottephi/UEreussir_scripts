@@ -1,5 +1,5 @@
 def print_question(SF, theme, level, dependances, question, tags, index, answers):
-  output = "\\begin{question}{" + str(SF) + "}{"+theme+"}{"+str(level)+"{"
+  output = "\\begin{question}{" + SF + "}{"+theme+"}{"+str(level)+"}"
   if len(dependances) == 0:
     output = output + "{/}\n    "
   else:
