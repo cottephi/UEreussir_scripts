@@ -3,10 +3,10 @@ def print_question(SF, theme, level, dependances, question, tags, index, answers
   if len(dependances) == 0:
     output = output + "{/}\n    "
   else:
+    output = output + "{"
     for dep in dependances:
       output = output + str(dep) + ","
-    output = output[-1] + "}\n    "
-  
+    output = output[:-1] + "}\n    "
   output = output + question + "\n\\end{question}\n\n\\begin{reponses}"
   for i in range(0,len(tags)):
     output = output + "\n    \\item[" + tags[index[i]]+"] " + answers[index[i]]

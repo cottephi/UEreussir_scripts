@@ -7,10 +7,6 @@ import pandas
 from graph import *
 from print_question import *
 
-dict_stheta_vs_sxy = {"0":["1","0"], "1/6":["\\sqrt{3}/2", "\\frac{1}{2}"], "1/4":["\\sqrt{2}/2", "\\sqrt{2}/2"], "1/3":["\\frac{1}{2}", "\\sqrt{3}/2"], "1/2":["0","1"], "2/3":["-\\frac{1}{2}","\\sqrt{3}/2"], "3/4":["-\\sqrt{2}/2", "\\sqrt{2}/2"], "5/6":["-\\sqrt{3}/2", "\\frac{1}{2}"], "1":["-1","0"], "-1/6":["\\sqrt{3}/2", "-\\frac{1}{2}"], "-1/4":["\\sqrt{2}/2", "-\\sqrt{2}/2"], "-1/3":["\\frac{1}{2}", "-\\sqrt{3}/2"], "-1/2":["0","-1"], "-2/3":["-\\frac{1}{2}","-\\sqrt{3}/2"], "-3/4":["-\\sqrt{2}/2", "-\\sqrt{2}/2"], "-5/6":["-\\sqrt{3}/2", "-\\frac{1}{2}"], "-1":["-1","0"]}
-dict_stheta_vs_fxy = {"0":[1,0], "1/6":[math.sqrt(3)/2., 0.5], "1/4":[math.sqrt(2)/2., math.sqrt(2)/2.], "1/3":[0.5, math.sqrt(3)/2.], "1/2":[0,1], "2/3":[-0.5,math.sqrt(3)/2.], "3/4":[-math.sqrt(2)/2., math.sqrt(2)/2.], "5/6":[-math.sqrt(3)/2., 0.5], "1":[-1,0], "-1/6":[math.sqrt(3)/2., -0.5], "-1/4":[math.sqrt(2)/2., -math.sqrt(2)/2.], "-1/3":[0.5, -math.sqrt(3)/2.], "-1/2":[0,-1], "-2/3":[-0.5,-math.sqrt(3)/2.], "-3/4":[-math.sqrt(2)/2., -math.sqrt(2)/2.], "-5/6":[-math.sqrt(3)/2., -0.5], "-1":[-1,0]}
-
-
 df_stheta_vs_xy = pandas.DataFrame({
 'theta':['0', '1/6', '1/4', '1/3', '1/2', '2/3', '3/4', '5/6', '1', '-1/6', '-1/4', '-1/3', '-1/2', '-2/3', '-3/4', '-5/6', '-1'],
 'str':[  ["1","0"], ["\\sqrt{3}/2", "\\frac{1}{2}"], ["\\sqrt{2}/2", "\\sqrt{2}/2"], ["\\frac{1}{2}", "\\sqrt{3}/2"], ["0","1"], ["-\\frac{1}{2}","\\sqrt{3}/2"], ["-\\sqrt{2}/2", "\\sqrt{2}/2"], ["-\\sqrt{3}/2", "\\frac{1}{2}"], ["-1","0"], ["\\sqrt{3}/2", "-\\frac{1}{2}"], ["\\sqrt{2}/2", "-\\sqrt{2}/2"], ["\\frac{1}{2}", "-\\sqrt{3}/2"], ["0","-1"], ["-\\frac{1}{2}","-\\sqrt{3}/2"], ["-\\sqrt{2}/2", "-\\sqrt{2}/2"], ["-\\sqrt{3}/2", "-\\frac{1}{2}"], ["-1","0"]  ],
@@ -165,10 +161,11 @@ if len(sys.argv) == 2:
 
 methods = ["coord","graph"]
 method = methods[random.SystemRandom(0).randint(0,1)]
-initials = ["xy","xr","yr","xtheta","ytheta","rtheta"]
-initial = initials[random.SystemRandom(0).randint(0,5)]
+initials = ["xy","rtheta"]
+initial = initials[random.SystemRandom(0).randint(0,1)]
 
-r, sx, sy, fx, fy, stheta, ftheta = get_all(method)
+r1, sx1, sy1, fx1, fy1, stheta1, ftheta1 = get_all(method)
+r2, sx2, sy2, fx2, fy2, stheta2, ftheta2 = get_all(method)
 
 question = ""
 true = ""
@@ -179,73 +176,29 @@ distractor3 = ""
 
 if initial == "xy":
   if method == "coord":
-    question = "Un vecteur a pour coordonnées $(" + sx[0] + "," + sy[0] + ")$. Que valent l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?"
+    question = "Un vecteur $OM$ a pour coordonnées $(" + sx1[0] + "," + sy1[0] + ")$ et un vecteur $OM'$ a pour coordonnées $(" + sx2[0] + "," + sy2[0] + ")$. Que vaut le produit scalair entre ces deux vecteurs?"
   else:
-    question = "Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\\vec{OM}$? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  true = "$OM$ = " + str(r[0]) + " et $\\theta$ = $" + stheta[0] + "$"
-  distractor1 = "$OM$ = " + str(r[1]) + " et $\\theta$ = $" + stheta[1] + "$"
-  distractor2 = "$OM$ = " + str(r[2]) + " et $\\theta$ = $" + stheta[2] + "$"
-  distractor3 = "$OM$ = " + str(r[3]) + " et $\\theta$ = $" + stheta[3] + "$"    
+    question = "Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\\\ \n" + graph( sx1[0], sy1[0], fx1[0], fy1[0], r1[0], stheta1[0], ftheta1[0], initial) + " \n " + graph( sx2[0], sy2[0], fx2[0], fy2[0], r2[0], stheta2[0], ftheta2[0], initial, "O", "M'", "x'", "y'")
+  true = "$" + str(int(100*fx1[0]*fx2[0]+fy1[0]*fy2[0])/100) + "$"
+  distractor1 = "$" + str(int(100*fx1[1]*fx2[1]+fy1[1]*fy2[1])/100) + "$"
+  distractor2 = "$" + str(int(100*fx1[2]*fx2[2]+fy1[2]*fy2[2])/100) + "$"
+  distractor3 = "$" + str(int(100*fx1[3]*fx2[3]+fy1[3]*fy2[3])/100) + "$"
   
-#######################################################################
-if initial == "xr":
-  if method == "coord":
-    question = "Un vecteur a pour coordonnées $(" + sx[0] + ",y)$ et pour rayon " + str(r[0]) + ". Que valent l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?"
-  else:
-    question = "Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\\vec{OM}$? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  true = "$y$ = $" + sy[0] + "$ et $\\theta$ = $" + stheta[0] + "$"
-  distractor1 = "$y$ = $" + sy[1] + "$ et $\\theta$ = $" + stheta[1] + "$"
-  distractor2 = "$y$ = $" + sy[2] + "$ et $\\theta$ = $" + stheta[2] + "$"
-  distractor3 = "$y$ = $" + sy[3] + "$ et $\\theta$ = $" + stheta[3] + "$"
-    
-#######################################################################
-if initial == "yr":
-  if method == "coord":
-    question = "Un vecteur a pour coordonnées $(x, " + sy[0] + ")$ et pour rayon " + str(r[0]) + ". Que valent l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?"
-  else:
-    question = "Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\\vec{OM}$? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  true = "$x$ = $" + sx[0] + "$ et $\\theta$ = $" + stheta[0] + "$"
-  distractor1 = "$x$ = $" + sx[1] + "$ et $\\theta$ = $" + stheta[1] + "$"
-  distractor2 = "$x$ = $" + sx[1] + "$ et $\\theta$ = $" + stheta[2] + "$"
-  distractor3 = "$x$ = $" + sx[1] + "$ et $\\theta$ = $" + stheta[3] + "$"
-    
-#######################################################################
-if initial == "xtheta":
-  if method == "coord":
-    question = "Un vecteur a pour coordonnées $(" + sx[0] + ", y)$ et pour angle $\\theta$ (entre le vecteur et l'axe des $x$) $" + stheta[0] + "$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?"
-  else:
-    question = "Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\\vec{OM}$ ci-dessous? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  true = "$y$ = $" + sy[0] + "$ et $OM$ = " + str(r[0])
-  distractor1 = "$y$ = $" + sy[1] + "$ et $OM$ = " + str(r[1])
-  distractor2 = "$y$ = $" + sy[2] + "$ et $OM$ = " + str(r[2])
-  distractor3 = "$y$ = $" + sy[3] + "$ et $OM$ = " + str(r[3])
-    
-#######################################################################
-if initial == "ytheta":
-  if method == "coord":
-    question = "Un vecteur a pour coordonnées $(x, " + sy[0] + ")$ et pour angle $\\theta$ (entre le vecteur et l'axe des $x$) $" + stheta[0] + "$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?"
-  else:
-    question = "Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\\vec{OM}$ ci-dessous? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  true = "$x$ = $" + sx[0] + "$ et $OM$ = " + str(r[0])
-  distractor1 = "$x$ = $" + sx[1] + "$ et $OM$ = " + str(r[1])
-  distractor2 = "$x$ = $" + sx[2] + "$ et $OM$ = " + str(r[2])
-  distractor3 = "$x$ = $" + sx[3] + "$ et $OM$ = " + str(r[3])
-    
 #######################################################################
 if initial == "rtheta":
   if method == "coord":
-    question = "Un vecteur a pour rayon " + str(r[0]) + " et pour angle $\\theta$ (entre le vecteur et l'axe des $x$) $" + stheta[0] + "$. Que valent les coordonnées $x$ et $y$ de ce vecteur?"
+    question = "Un vecteur $OM$ a pour rayon " + str(r1[0]) + " et pour angle $\\theta$ (entre le vecteur et l'axe des $x$) $" + stheta1[0] + "$. Un vecteur $OM'$ a pour rayon " + str(r2[0]) + " et pour angle $\\theta'$ (entre le vecteur et l'axe des $x$) $" + stheta2[0] + "$. Que vaut le produit scalair entre ces deux vecteurs?"
   else:
-    question = "Que valent les coordonnées $x$ et $y$ du vecteur $\\vec{OM}$ ci-dessous? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  true = "$x$ = $" + sx[0] + "$ et $y$ = $" + sy[0] + "$"
-  distractor1 = "$x$ = $" + sx[1] + "$ et $y$ = $" + sy[1] + "$"
-  distractor2 = "$x$ = $" + sx[2] + "$ et $y$ = $" + sy[2] + "$"
-  distractor3 = "$x$ = $" + sx[3] + "$ et $y$ = $" + sy[3] + "$"
+    question = "Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\\\ \n" + graph( sx1[0], sy1[0], fx1[0], fy1[0], r1[0], stheta1[0], ftheta1[0], initial) + " \n " + graph( sx2[0], sy2[0], fx2[0], fy2[0], r2[0], stheta2[0], ftheta2[0], initial, "O","M'", "x'", "My'")
+  
+  true = "$" + str(int(100*r1[0]*r2[0]*math.cos(ftheta1[0]-ftheta2[0]))/100) + "$"
+  distractor1 = "$" + str(int(100*r1[1]*r2[1]*math.cos(ftheta1[1]-ftheta2[1]))/100) + "$"
+  distractor2 = "$" + str(int(100*r1[2]*r2[2]*math.cos(ftheta1[2]-ftheta2[2]))/100) + "$"
+  distractor3 = "$" + str(int(100*r1[3]*r2[3]*math.cos(ftheta1[3]-ftheta2[3]))/100) + "$"
     
 answers = [true, distractor1, distractor2, distractor3]
 tags = ["true", "false", "false", "false"]
 index = [0, 1, 2, 3]
 random.shuffle(index)
 
-print_question("/","Vecteurs",2,[1217,31,1213],question,tags,index,answers)
-
+print_question("1205","Vecteurs",2,[1217,31,1213],question,tags,index,answers)
