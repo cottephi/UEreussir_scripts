@@ -51,4 +51,4 @@ random.shuffle(index)
 
 question = "Que vaut $"+formula+"$?"
 
-print_question("1211","Calcul",0,[],question,tags,index,answers)
+print_question("1211","Calcul",2,[],question,tags,index,answers)
