@@ -1,0 +1,2017 @@
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-34,0)$ et un vecteur $OM'$ a pour coordonnées $(-27/2,-27\sqrt{3}/2)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-558.76$
+    \item[true] $459.0$
+    \item[false] $-1117.61$
+    \item[false] $-1377.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (90.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-8.06$
+    \item[false] $-4.03$
+    \item[true] $-4.03$
+    \item[false] $-12.09$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 27 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi/2$. Un vecteur $OM'$ a pour rayon 36 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-581.7$
+    \item[false] $1899.95$
+    \item[false] $5740.91$
+    \item[false] $-128.86$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $4.0$
+    \item[true] $-1.13$
+    \item[false] $8.0$
+    \item[false] $24.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 4 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi$. Un vecteur $OM'$ a pour rayon 31 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $3\pi$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $496.0$
+    \item[true] $124.0$
+    \item[false] $744.0$
+    \item[false] $372.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=2$, $y=0$ };
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (405.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=\sqrt{2}$"] ++ (0:1.41) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=\sqrt{2}$"] ++ (90:1.41);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $0.02$
+    \item[false] $5.24$
+    \item[false] $-0.97$
+    \item[true] $2.82$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(43/2,-43\sqrt{3}/2)$ et un vecteur $OM'$ a pour coordonnées $(0,41)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-15.26$
+    \item[false] $1224.98$
+    \item[false] $-45.8$
+    \item[false] $3219.51$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $-2.39$
+    \item[false] $4.0$
+    \item[false] $8.0$
+    \item[false] $24.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 2 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi/2$. Un vecteur $OM'$ a pour rayon 37 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi/3$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-130.81$
+    \item[true] $11.41$
+    \item[false] $-56.21$
+    \item[false] $-337.3$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(43/2,-43\sqrt{3}/2)$ et un vecteur $OM'$ a pour coordonnées $(33/2,-33\sqrt{3}/2)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $365.38$
+    \item[false] $730.77$
+    \item[false] $127.71$
+    \item[false] $1432.88$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(18,-18\sqrt{3})$ et un vecteur $OM'$ a pour coordonnées $(24,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-12.96$
+    \item[false] $-932.25$
+    \item[false] $-932.06$
+    \item[true] $432.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 17 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Un vecteur $OM'$ a pour rayon 35 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $7\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-1577.72$
+    \item[true] $-434.44$
+    \item[false] $-712.16$
+    \item[false] $832.1$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(27,0)$ et un vecteur $OM'$ a pour coordonnées $(-30,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-810.0$
+    \item[false] $1603.39$
+    \item[false] $605.38$
+    \item[false] $589.27$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(14,14\sqrt{3})$ et un vecteur $OM'$ a pour coordonnées $(8,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $112.0$
+    \item[false] $-700.39$
+    \item[false] $-233.36$
+    \item[false] $3.36$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (210.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=-\sqrt{3}$"] ++ (0:-1.73) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=-1$"] ++ (90:-1.0);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (30.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=\sqrt{3}$"] ++ (0:1.73) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=1$"] ++ (90:1.0);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-16.92$
+    \item[false] $0.04$
+    \item[true] $-3.0$
+    \item[false] $12.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (1620.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=9\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $27.0$
+    \item[false] $9.0$
+    \item[false] $9.0$
+    \item[true] $4.38$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-38,0)$ et un vecteur $OM'$ a pour coordonnées $(-37,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $2129.84$
+    \item[true] $1406.0$
+    \item[false] $1057.63$
+    \item[false] $1086.12$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 6 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $4\pi/3$. Un vecteur $OM'$ a pour rayon 9 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $52.1$
+    \item[false] $87.93$
+    \item[false] $-21.49$
+    \item[false] $474.15$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(44,0)$ et un vecteur $OM'$ a pour coordonnées $(0,-20)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-444.29$
+    \item[true] $0.0$
+    \item[false] $-2309.06$
+    \item[false] $-384.85$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 10 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Un vecteur $OM'$ a pour rayon 28 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $0$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $840.0$
+    \item[false] $1680.0$
+    \item[true] $280.0$
+    \item[false] $840.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-10,10\sqrt{3})$ et un vecteur $OM'$ a pour coordonnées $(25,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-608.72$
+    \item[false] $-250.0$
+    \item[false] $-2739.52$
+    \item[true] $-250.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (240.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-1.73);
+    \pic ["$\theta=4\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (120.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.59);
+    \pic ["$\theta=2\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $5.9$
+    \item[false] $-0.26$
+    \item[false] $18.0$
+    \item[true] $4.88$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-14,-14\sqrt{3})$ et un vecteur $OM'$ a pour coordonnées $(-7,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-119.23$
+    \item[false] $-715.24$
+    \item[false] $-98.0$
+    \item[true] $98.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (270.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:-2.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=3\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (30.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:2.59) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.5);
+    \pic ["$\theta=\pi/6$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-0.79$
+    \item[false] $1.95$
+    \item[false] $5.85$
+    \item[true] $1.95$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 29 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi/4$. Un vecteur $OM'$ a pour rayon 46 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi/4$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $12006.0$
+    \item[false] $2668.0$
+    \item[true] $1334.0$
+    \item[false] $1334.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-24\sqrt{3},24)$ et un vecteur $OM'$ a pour coordonnées $(0,-7)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $168.0$
+    \item[false] $-204.48$
+    \item[false] $-613.18$
+    \item[true] $-1.68$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-40,0)$ et un vecteur $OM'$ a pour coordonnées $(0,7)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-122.41$
+    \item[false] $-122.45$
+    \item[false] $-141.1$
+    \item[true] $0.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(45,0)$ et un vecteur $OM'$ a pour coordonnées $(-46,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $13925.33$
+    \item[true] $-2070.0$
+    \item[false] $4517.78$
+    \item[false] $2048.54$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $24.0$
+    \item[true] $5.62$
+    \item[false] $18.0$
+    \item[false] $36.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $9.0$
+    \item[false] $27.0$
+    \item[false] $9.0$
+    \item[false] $27.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=3$, $y=0$ };
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (300.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=1$"] ++ (0:1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=-\sqrt{3}$"] ++ (90:-1.73);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-6.47$
+    \item[true] $3.0$
+    \item[false] $-0.03$
+    \item[false] $-6.46$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (60.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.73);
+    \pic ["$\theta=\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $11.06$
+    \item[false] $16.59$
+    \item[true] $4.88$
+    \item[false] $-34.28$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 38 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $8\pi/3$. Un vecteur $OM'$ a pour rayon 20 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $351.69$
+    \item[false] $-1732.08$
+    \item[false] $-1154.72$
+    \item[true] $117.23$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (420.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=1$"] ++ (0:1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=\sqrt{3}$"] ++ (90:1.73);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=3$, $y'=0$ };
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-6.25$
+    \item[false] $0.09$
+    \item[false] $-6.24$
+    \item[true] $3.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-2,0)$ et un vecteur $OM'$ a pour coordonnées $(30,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-60.0$
+    \item[false] $14.55$
+    \item[false] $59.21$
+    \item[false] $44.79$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(0,38)$ et un vecteur $OM'$ a pour coordonnées $(17/2,17\sqrt{3}/2)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1193.46$
+    \item[true] $5.59$
+    \item[false] $1394.1$
+    \item[false] $16.77$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $81.0$
+    \item[false] $54.0$
+    \item[false] $18.0$
+    \item[true] $9.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 46 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Un vecteur $OM'$ a pour rayon 11 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $4554.0$
+    \item[false] $506.0$
+    \item[true] $506.0$
+    \item[false] $3036.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=-3$, $y=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (240.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=-3/2$"] ++ (0:-1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=-3\sqrt{3}/2$"] ++ (90:-2.59);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-16.37$
+    \item[true] $4.5$
+    \item[false] $-5.45$
+    \item[false] $-4.5$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 28 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $11\pi$. Un vecteur $OM'$ a pour rayon 15 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $3\pi$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1260.0$
+    \item[true] $171.34$
+    \item[false] $840.0$
+    \item[false] $1260.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-41\sqrt{3}/2,41/2)$ et un vecteur $OM'$ a pour coordonnées $(-15/2,-15\sqrt{3}/2)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $869.61$
+    \item[false] $-1304.55$
+    \item[true] $263.58$
+    \item[false] $-2758.16$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (45.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:2.12) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.12);
+    \pic ["$\theta=\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (1620.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=9\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $5.55$
+    \item[false] $-8.57$
+    \item[true] $-4.38$
+    \item[false] $28.36$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 29 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Un vecteur $OM'$ a pour rayon 13 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $0$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1508.0$
+    \item[false] $3393.0$
+    \item[true] $377.0$
+    \item[false] $3393.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 50 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi/3$. Un vecteur $OM'$ a pour rayon 19 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $\pi$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $773.47$
+    \item[false] $5253.98$
+    \item[false] $-904.79$
+    \item[false] $1751.32$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 42 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Un vecteur $OM'$ a pour rayon 6 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $3\pi$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1512.0$
+    \item[false] $2268.0$
+    \item[false] $504.0$
+    \item[true] $236.37$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (990.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:-3.0);
+    \draw (1,1) node[right]{$x=0$, $y=-3$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (810.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$x'=0$, $y'=3$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $20.1$
+    \item[false] $19.64$
+    \item[false] $4.44$
+    \item[true] $-0.09$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (90.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (240.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-1.73);
+    \pic ["$\theta=4\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $4.19$
+    \item[false] $-3.8$
+    \item[false] $-15.52$
+    \item[false] $8.32$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 17 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $7\pi$. Un vecteur $OM'$ a pour rayon 36 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $0$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-597.06$
+    \item[false] $5508.0$
+    \item[false] $3672.0$
+    \item[false] $1224.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (810.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=9\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-5.37$
+    \item[false] $-8.06$
+    \item[true] $5.17$
+    \item[false] $-2.68$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=-2$, $y=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=-2$, $y'=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $4.01$
+    \item[false] $2.05$
+    \item[false] $3.0$
+    \item[true] $4.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(11,0)$ et un vecteur $OM'$ a pour coordonnées $(-24,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $789.07$
+    \item[true] $-264.0$
+    \item[false] $64.02$
+    \item[false] $130.53$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 20 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Un vecteur $OM'$ a pour rayon 26 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $3\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-459.61$
+    \item[false] $727.22$
+    \item[true] $-232.99$
+    \item[false] $-2800.79$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=2$, $y=0$ };
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=-2$, $y'=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $2.91$
+    \item[false] $3.93$
+    \item[false] $5.96$
+    \item[true] $-4.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=2$, $y=0$ };
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=-3$, $y'=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $26.69$
+    \item[true] $-6.0$
+    \item[false] $13.43$
+    \item[false] $8.73$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(17,0)$ et un vecteur $OM'$ a pour coordonnées $(10,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $43.77$
+    \item[false] $383.7$
+    \item[true] $170.0$
+    \item[false] $171.66$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(0,29)$ et un vecteur $OM'$ a pour coordonnées $(0,-47)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $2023.41$
+    \item[false] $2037.13$
+    \item[false] $330.53$
+    \item[true] $-13.63$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 40 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Un vecteur $OM'$ a pour rayon 48 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi/3$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-10944.15$
+    \item[false] $296.16$
+    \item[false] $-9933.73$
+    \item[true] $1342.56$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $5.62$
+    \item[false] $18.0$
+    \item[false] $24.0$
+    \item[false] $54.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (135.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=-3\sqrt{2}/2$"] ++ (0:-2.12) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=3\sqrt{2}/2$"] ++ (90:2.12);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=2$, $y'=0$ };
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $7.69$
+    \item[false] $-4.23$
+    \item[true] $-4.24$
+    \item[false] $-4.46$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $6.0$
+    \item[false] $18.0$
+    \item[true] $6.0$
+    \item[false] $12.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-47,0)$ et un vecteur $OM'$ a pour coordonnées $(-26,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $616.87$
+    \item[false] $3677.66$
+    \item[false] $943.98$
+    \item[true] $1222.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (450.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$x=0$, $y=3$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (210.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=-\sqrt{3}$"] ++ (0:-1.73) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=-1$"] ++ (90:-1.0);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-4.46$
+    \item[false] $-38.16$
+    \item[true] $-0.03$
+    \item[false] $9.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (495.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.41) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.41);
+    \pic ["$\theta=11\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $2.66$
+    \item[false] $6.51$
+    \item[false] $-7.96$
+    \item[false] $1.23$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (900.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=5\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (405.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:2.12) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.12);
+    \pic ["$\theta=9\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $1.38$
+    \item[false] $14.18$
+    \item[false] $-25.71$
+    \item[true] $1.78$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (60.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.59);
+    \pic ["$\theta=\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-8.57$
+    \item[true] $-8.57$
+    \item[false] $16.59$
+    \item[false] $74.66$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 12 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $10\pi/3$. Un vecteur $OM'$ a pour rayon 30 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $0$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-359.64$
+    \item[false] $351.22$
+    \item[false] $586.21$
+    \item[false] $-143.28$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(0,24)$ et un vecteur $OM'$ a pour coordonnées $(30,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-1851.85$
+    \item[false] $-617.16$
+    \item[false] $-356.33$
+    \item[true] $0.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(11/2,11\sqrt{3}/2)$ et un vecteur $OM'$ a pour coordonnées $(-13\sqrt{2}/2,-13\sqrt{2}/2)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-101.01$
+    \item[false] $214.5$
+    \item[true] $-51.41$
+    \item[false] $-2.86$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (1980.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=11\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $12.0$
+    \item[false] $54.0$
+    \item[true] $-5.94$
+    \item[false] $6.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (330.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=\sqrt{3}$"] ++ (0:1.73) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=-1$"] ++ (90:-1.0);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (60.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=3/2$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=3\sqrt{3}/2$"] ++ (90:2.59);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-0.08$
+    \item[false] $-3.08$
+    \item[false] $-0.04$
+    \item[true] $2.56$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 44 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $11\pi/3$. Un vecteur $OM'$ a pour rayon 43 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $3\pi/4$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-1801.96$
+    \item[false] $-251.01$
+    \item[false] $-376.26$
+    \item[true] $-1774.66$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (450.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:2.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=5\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (300.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-2.59);
+    \pic ["$\theta=5\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $4.19$
+    \item[false] $2.77$
+    \item[false] $-3.8$
+    \item[false] $-15.52$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $18.0$
+    \item[false] $12.0$
+    \item[false] $36.0$
+    \item[true] $-3.59$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 17 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $2\pi/3$. Un vecteur $OM'$ a pour rayon 19 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-981.51$
+    \item[false] $49.82$
+    \item[true] $-320.15$
+    \item[false] $-1472.27$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=-2$, $y=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (900.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=-2$, $y'=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $6.03$
+    \item[false] $2.05$
+    \item[true] $4.0$
+    \item[false] $3.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (300.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=3/2$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=-3\sqrt{3}/2$"] ++ (90:-2.59);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=3$, $y'=0$ };
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-3.23$
+    \item[true] $4.5$
+    \item[false] $-6.46$
+    \item[false] $-0.13$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(23/2,-23\sqrt{3}/2)$ et un vecteur $OM'$ a pour coordonnées $(-25/2,-25\sqrt{3}/2)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-139.43$
+    \item[false] $502.92$
+    \item[false] $12.19$
+    \item[false] $406.5$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-31/2,31\sqrt{3}/2)$ et un vecteur $OM'$ a pour coordonnées $(0,-34)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1283.01$
+    \item[false] $3295.67$
+    \item[true] $-9.12$
+    \item[false] $2737.92$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(5\sqrt{2},-5\sqrt{2})$ et un vecteur $OM'$ a pour coordonnées $(49,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1890.4$
+    \item[false] $-378.52$
+    \item[true] $346.43$
+    \item[false] $-13.85$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 20 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi/4$. Un vecteur $OM'$ a pour rayon 20 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $3\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1575.01$
+    \item[false] $146.92$
+    \item[false] $-478.76$
+    \item[true] $146.92$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(25/2,25\sqrt{3}/2)$ et un vecteur $OM'$ a pour coordonnées $(-36,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-647.39$
+    \item[false] $-323.56$
+    \item[false] $-9.0$
+    \item[true] $-450.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 13 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Un vecteur $OM'$ a pour rayon 15 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-262.12$
+    \item[true] $-142.37$
+    \item[false] $-786.36$
+    \item[false] $-262.12$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (330.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=3\sqrt{3}/2$"] ++ (0:2.59) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=-3/2$"] ++ (90:-1.5);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x'=3$, $y'=0$ };
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $7.77$
+    \item[false] $5.45$
+    \item[false] $-0.23$
+    \item[false] $9.37$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $12.0$
+    \item[false] $8.0$
+    \item[true] $3.75$
+    \item[false] $8.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (240.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-1.73);
+    \pic ["$\theta=4\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $23.41$
+    \item[true] $1.3$
+    \item[false] $29.31$
+    \item[false] $-0.26$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 9 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Un vecteur $OM'$ a pour rayon 7 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $0$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $126.0$
+    \item[true] $-37.7$
+    \item[false] $378.0$
+    \item[false] $126.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 15 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi$. Un vecteur $OM'$ a pour rayon 33 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $\pi/3$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $456.26$
+    \item[false] $-4242.99$
+    \item[true] $-389.92$
+    \item[false] $912.53$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $8.0$
+    \item[true] $3.75$
+    \item[false] $4.0$
+    \item[false] $12.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $12.0$
+    \item[true] $5.62$
+    \item[false] $18.0$
+    \item[false] $18.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=-2$, $y=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (60.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=3/2$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=3\sqrt{3}/2$"] ++ (90:2.59);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-2.15$
+    \item[true] $-3.0$
+    \item[false] $-0.03$
+    \item[false] $-2.15$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-37/2,37\sqrt{3}/2)$ et un vecteur $OM'$ a pour coordonnées $(-2\sqrt{2},-2\sqrt{2})$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $384.48$
+    \item[true] $51.26$
+    \item[false] $270.23$
+    \item[false] $-296.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(41,0)$ et un vecteur $OM'$ a pour coordonnées $(-21\sqrt{2}/2,21\sqrt{2}/2)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[true] $-608.44$
+    \item[false] $-1217.58$
+    \item[false] $-643.23$
+    \item[false] $3321.27$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=-2$, $y=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (120.0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x'=-1$"] ++ (0:-1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y'=\sqrt{3}$"] ++ (90:1.73);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $-8.0$
+    \item[false] $-2.45$
+    \item[false] $-4.9$
+    \item[true] $2.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 45 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Un vecteur $OM'$ a pour rayon 27 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $8\pi/3$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-292.76$
+    \item[false] $5935.37$
+    \item[true] $-957.09$
+    \item[false] $-585.53$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-21,0)$ et un vecteur $OM'$ a pour coordonnées $(-11,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $466.29$
+    \item[false] $356.89$
+    \item[false] $347.48$
+    \item[true] $231.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $3.75$
+    \item[false] $24.0$
+    \item[false] $8.0$
+    \item[false] $8.0$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour coordonnées $(-10,0)$ et un vecteur $OM'$ a pour coordonnées $(-4,0)$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $60.12$
+    \item[true] $40.0$
+    \item[false] $20.59$
+    \item[false] $121.03$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 8 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Un vecteur $OM'$ a pour rayon 28 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $3\pi$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $-301.1$
+    \item[false] $-200.73$
+    \item[false] $-401.47$
+    \item[true] $-100.36$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture} 
+ \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (240.0:3) coordinate[label=above right:M'] (M');
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-2.59);
+    \pic ["$\theta=4\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M'};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $1.95$
+    \item[false] $14.65$
+    \item[false] $5.85$
+    \item[false] $-0.79$
+\end{reponses}
+
+\begin{question}{1205}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur $OM$ a pour rayon 22 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Un vecteur $OM'$ a pour rayon 23 et pour angle $\theta'$ (entre le vecteur et l'axe des $x$) $\pi$. Que vaut le produit scalair entre ces deux vecteurs?
+\end{question}
+
+\begin{reponses}
+    \item[false] $1518.0$
+    \item[true] $-302.82$
+    \item[false] $1518.0$
+    \item[false] $1012.0$
+\end{reponses}
+

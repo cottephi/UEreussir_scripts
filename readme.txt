@@ -6,7 +6,16 @@ or
   python3 scalar_product.py
 or
   python3 powers_of_ten.py difficulty
-where difficulty should be an integre. It will determine the number of terms in the formula to compute.
+where difficulty should be an integer. It will determine the number of terms in the formula to compute.
+
+To generate 100 questions, run:
+  100_vectors.sh
+or 
+  100_scalar_products.sh
+or
+  100_powers_of_ten.sh difficulty
+  
+The output will be placed in the txt file which name corresponds to the exercice type.
 
 vectors.py will generate a question where two elements of the vector are given among x, y, r and theta, and the other two are to be found. It can display (randomly) the question with a graph or not (in that case the value of r is limited to 3).
 
