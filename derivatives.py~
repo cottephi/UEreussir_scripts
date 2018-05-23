@@ -13,7 +13,7 @@ def theme1(values,funcs,variable):
     new_variable = new_variable + values[1][1]
   new_variable = new_variable + variable
   if values[0][1] != "1":
-    function = function + values[0][1]
+    function = function + values[0][1] 
   function = function + funcs[0].replace('x',new_variable)
   if values[2][0] == "-":
     function = function + "-"

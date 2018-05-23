@@ -1,59 +1,5 @@
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(41, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $41\sqrt{2}/2$ et $OM$ = 41
-    \item[false] $y$ = $41\sqrt{3}/2$ et $OM$ = 41
-    \item[true] $y$ = $0$ et $OM$ = 41
-    \item[false] $y$ = $41/2$ et $OM$ = 41
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(16\sqrt{2},16\sqrt{2})$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $OM$ = 32 et $\theta$ = $9\pi/4$
-    \item[false] $OM$ = 96 et $\theta$ = $\pi/2$
-    \item[false] $OM$ = 64 et $\theta$ = $2\pi/3$
-    \item[false] $OM$ = 32 et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $x=3$};
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $3/2$ et $\theta$ = $\pi/6$
-    \item[true] $y$ = $0$ et $\theta$ = $0$
-    \item[false] $y$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/3$
-    \item[false] $y$ = $3\sqrt{2}/2$ et $\theta$ = $\pi/4$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(0, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi/2$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $y$ = $39$ et $OM$ = 39
-    \item[false] $y$ = $39\sqrt{3}/2$ et $OM$ = 39
-    \item[false] $y$ = $39\sqrt{2}/2$ et $OM$ = 39
-    \item[false] $y$ = $39/2$ et $OM$ = 39
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
 \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
     \coordinate[label=below  left:O] (O) at (0cm,0cm);
     \coordinate[label=below  left:] (x) at (1cm,0cm);
@@ -62,122 +8,48 @@
     \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
     \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
     \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=2$, $x=2$};
+    \draw (1,1) node[right]{$OM=2$, $y=0$};
     \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $y$ = $\sqrt{3}$ et $\theta$ = $\pi/3$
-    \item[false] $y$ = $1$ et $\theta$ = $\pi/6$
-    \item[false] $y$ = $3\sqrt{2}$ et $\theta$ = $\pi/4$
-    \item[true] $y$ = $0$ et $\theta$ = $0$
+    \item[false] $x$ = $2\sqrt{3}$ et $\theta$ = $\pi/6$
+    \item[true] $x$ = $2$ et $\theta$ = $0$
+    \item[false] $x$ = $2\sqrt{3}$ et $\theta$ = $\pi/4$
+    \item[false] $x$ = $2\sqrt{3}$ et $\theta$ = $\pi/3$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $x=-3$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
+    Un vecteur a pour coordonnées $(x, 15\sqrt{3})$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi/3$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $y$ = $-3\sqrt{3}/2$ et $\theta$ = $\pi/3$
-    \item[false] $y$ = $-9\sqrt{2}/2$ et $\theta$ = $\pi/4$
-    \item[false] $y$ = $-3$ et $\theta$ = $\pi/6$
-    \item[true] $y$ = $0$ et $\theta$ = $\pi$
+    \item[false] $x$ = $0$ et $OM$ = 90
+    \item[false] $x$ = $-15\sqrt{2}$ et $OM$ = 30
+    \item[false] $x$ = $-15$ et $OM$ = 30
+    \item[true] $x$ = $15$ et $OM$ = 30
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(50,0)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+    Un vecteur a pour coordonnées $(x, -7\sqrt{2})$ et pour rayon 14. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 50 et $\theta$ = $\pi/3$
-    \item[true] $OM$ = 50 et $\theta$ = $0$
-    \item[false] $OM$ = 100 et $\theta$ = $\pi/6$
-    \item[false] $OM$ = 100 et $\theta$ = $\pi/4$
+    \item[false] $x$ = $21$ et $\theta$ = $\pi/3$
+    \item[true] $x$ = $7\sqrt{2}$ et $\theta$ = $7\pi/4$
+    \item[false] $x$ = $21$ et $\theta$ = $-2\pi/3$
+    \item[false] $x$ = $21$ et $\theta$ = $\pi/2$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (150.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-2.59) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.5);
-    \pic ["$\theta=5\pi/6$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
+    Un vecteur a pour rayon 25 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $3\sqrt{3}$ et $y$ = $-3$
-    \item[false] $x$ = $-3$ et $y$ = $0$
-    \item[false] $x$ = $3\sqrt{2}/2$ et $y$ = $-3\sqrt{2}/2$
-    \item[true] $x$ = $-3\sqrt{3}/2$ et $y$ = $3/2$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(17\sqrt{2}/2,y)$ et pour rayon 17. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $-17\sqrt{3}$ et $\theta$ = $\pi/3$
-    \item[false] $y$ = $-51\sqrt{3}/2$ et $\theta$ = $-2\pi/3$
-    \item[false] $y$ = $-51$ et $\theta$ = $\pi/2$
-    \item[true] $y$ = $-17\sqrt{2}/2$ et $\theta$ = $7\pi/4$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (120.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.73);
-    \pic ["$\theta=2\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-3\sqrt{2}$ et $y$ = $3\sqrt{2}$
-    \item[false] $x$ = $-\sqrt{3}$ et $y$ = $1$
-    \item[true] $x$ = $-1$ et $y$ = $\sqrt{3}$
-    \item[false] $x$ = $-2$ et $y$ = $0$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (495.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-2.12) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["y=$3\sqrt{2}/2$"] ++ (90:2.12);
-    \pic ["$\theta=11\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-9\sqrt{3}/2$ et $OM$ = 9
-    \item[false] $x$ = $-6$ et $OM$ = 6
-    \item[false] $x$ = $3\sqrt{3}$ et $OM$ = 6
-    \item[true] $x$ = $-3\sqrt{2}/2$ et $OM$ = 3
+    \item[false] $x$ = $25\sqrt{2}/2$ et $y$ = $-25\sqrt{2}/2$
+    \item[false] $x$ = $25$ et $y$ = $-25\sqrt{3}$
+    \item[true] $x$ = $-25$ et $y$ = $0$
+    \item[false] $x$ = $25\sqrt{3}/2$ et $y$ = $-25/2$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -187,106 +59,74 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (540.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=-3$};
-    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $-3\sqrt{2}$ et $OM$ = 6
-    \item[false] $y$ = $-3\sqrt{3}/2$ et $OM$ = 3
-    \item[true] $y$ = $0$ et $OM$ = 3
-    \item[false] $y$ = $-3/2$ et $OM$ = 3
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $48$ et $OM$ = 96
-    \item[true] $x$ = $48$ et $OM$ = 48
-    \item[false] $x$ = $72\sqrt{2}$ et $OM$ = 144
-    \item[false] $x$ = $48\sqrt{3}$ et $OM$ = 96
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (90.0:2) coordinate[label=above right:M] (M);
+    \draw[-Stealth] (O) to [] ++ (810.0:2) coordinate[label=above right:M] (M);
     \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
     \draw[densely dotted] (Mx) to [] ++ (90:2.0);
-    \draw (1,1) node[right]{$OM=2$, $y=2$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+    \draw (1,1) node[right]{$x=0$};
+    \pic ["$\theta=9\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[true] $x$ = $0$ et $\theta$ = $\pi/2$
-    \item[false] $x$ = $-1$ et $\theta$ = $3\pi/4$
-    \item[false] $x$ = $-1$ et $\theta$ = $5\pi/6$
-    \item[false] $x$ = $-1$ et $\theta$ = $2\pi/3$
+    \item[false] $y$ = $\sqrt{3}$ et $OM$ = 2
+    \item[false] $y$ = $2$ et $OM$ = 4
+    \item[false] $y$ = $2\sqrt{2}$ et $OM$ = 4
+    \item[true] $y$ = $2$ et $OM$ = 2
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour rayon 30 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi/3$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+    Un vecteur a pour coordonnées $(x, -45/2)$ et pour rayon 45. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $-30$ et $y$ = $30\sqrt{3}$
-    \item[false] $x$ = $0$ et $y$ = $30$
-    \item[true] $x$ = $15$ et $y$ = $15\sqrt{3}$
-    \item[false] $x$ = $-15\sqrt{2}$ et $y$ = $15\sqrt{2}$
+    \item[false] $x$ = $-45$ et $\theta$ = $\pi$
+    \item[true] $x$ = $-45\sqrt{3}/2$ et $\theta$ = $7\pi/6$
+    \item[false] $x$ = $-45$ et $\theta$ = $0$
+    \item[false] $x$ = $-45$ et $\theta$ = $\pi/6$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(27, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
+    Un vecteur a pour rayon 17 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $11\pi/2$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[true] $y$ = $0$ et $OM$ = 27
-    \item[false] $y$ = $27\sqrt{3}$ et $OM$ = 54
-    \item[false] $y$ = $27/2$ et $OM$ = 27
-    \item[false] $y$ = $81\sqrt{2}/2$ et $OM$ = 81
+    \item[false] $x$ = $-17\sqrt{2}$ et $y$ = $-17\sqrt{2}$
+    \item[false] $x$ = $-17/2$ et $y$ = $-17\sqrt{3}/2$
+    \item[true] $x$ = $0$ et $y$ = $-17$
+    \item[false] $x$ = $-17\sqrt{3}$ et $y$ = $-17$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (60.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x=1$"] ++ (0:1.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y=\sqrt{3}$"] ++ (90:1.73);
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
+    Un vecteur a pour coordonnées $(-11\sqrt{3},y)$ et pour rayon 22. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 6 et $\theta$ = $2\pi/3$
-    \item[true] $OM$ = 2 et $\theta$ = $\pi/3$
-    \item[false] $OM$ = 2 et $\theta$ = $\pi/2$
-    \item[false] $OM$ = 6 et $\theta$ = $3\pi/4$
+    \item[false] $y$ = $11$ et $\theta$ = $\pi/6$
+    \item[true] $y$ = $-11$ et $\theta$ = $7\pi/6$
+    \item[false] $y$ = $0$ et $\theta$ = $0$
+    \item[false] $y$ = $0$ et $\theta$ = $\pi$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(-39\sqrt{3}/2,39/2)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+    Un vecteur a pour coordonnées $(x, 0)$ et pour rayon 45. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 39 et $\theta$ = $\pi/6$
-    \item[false] $OM$ = 78 et $\theta$ = $\pi/4$
-    \item[false] $OM$ = 39 et $\theta$ = $\pi$
-    \item[true] $OM$ = 39 et $\theta$ = $5\pi/6$
+    \item[false] $x$ = $45\sqrt{3}/2$ et $\theta$ = $\pi/6$
+    \item[true] $x$ = $-45$ et $\theta$ = $\pi$
+    \item[false] $x$ = $45\sqrt{3}/2$ et $\theta$ = $\pi/4$
+    \item[false] $x$ = $45\sqrt{3}/2$ et $\theta$ = $\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-25\sqrt{2}/2, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi/4$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $y$ = $-25\sqrt{2}/2$ et $OM$ = 25
+    \item[false] $y$ = $-25$ et $OM$ = 50
+    \item[false] $y$ = $0$ et $OM$ = 50
+    \item[false] $y$ = $0$ et $OM$ = 25
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -296,271 +136,44 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $y=0$};
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/6$
-    \item[true] $x$ = $3$ et $\theta$ = $0$
-    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/3$
-    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/4$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (270.0:2) coordinate[label=above right:M] (M);
+    \draw[-Stealth] (O) to [] ++ (450.0:3) coordinate[label=above right:M] (M);
     \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:-2.0);
-    \draw (1,1) node[right]{$OM=2$, $y=-2$};
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$OM=3$, $y=3$};
     \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $-2$ et $\theta$ = $-5\pi/6$
-    \item[false] $x$ = $-2$ et $\theta$ = $-3\pi/4$
-    \item[false] $x$ = $-2$ et $\theta$ = $-2\pi/3$
-    \item[true] $x$ = $0$ et $\theta$ = $3\pi/2$
+    \item[false] $x$ = $-3$ et $\theta$ = $2\pi/3$
+    \item[true] $x$ = $0$ et $\theta$ = $5\pi/2$
+    \item[false] $x$ = $-3$ et $\theta$ = $5\pi/6$
+    \item[false] $x$ = $-3$ et $\theta$ = $3\pi/4$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(47\sqrt{2}/2,47\sqrt{2}/2)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 141 et $\theta$ = $\pi/3$
-    \item[true] $OM$ = 47 et $\theta$ = $\pi/4$
-    \item[false] $OM$ = 47 et $\theta$ = $\pi/2$
-    \item[false] $OM$ = 141 et $\theta$ = $2\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $75\sqrt{2}/2$ et $OM$ = 75
-    \item[true] $x$ = $-25$ et $OM$ = 25
-    \item[false] $x$ = $25\sqrt{3}/2$ et $OM$ = 25
-    \item[false] $x$ = $25$ et $OM$ = 50
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour rayon 20 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $20$ et $y$ = $-20\sqrt{3}$
-    \item[false] $x$ = $30\sqrt{2}$ et $y$ = $-30\sqrt{2}$
-    \item[true] $x$ = $-20$ et $y$ = $0$
-    \item[false] $x$ = $20\sqrt{3}$ et $y$ = $-20$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour rayon 10 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $10\sqrt{2}$ et $y$ = $10\sqrt{2}$
-    \item[true] $x$ = $10$ et $y$ = $0$
-    \item[false] $x$ = $5$ et $y$ = $5\sqrt{3}$
-    \item[false] $x$ = $5\sqrt{3}$ et $y$ = $5$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
 \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
     \coordinate[label=below  left:O] (O) at (0cm,0cm);
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$y=0$, $\theta=0$};
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $1$ et $OM$ = 2
-    \item[true] $x$ = $2$ et $OM$ = 2
-    \item[false] $x$ = $\sqrt{3}$ et $OM$ = 2
-    \item[false] $x$ = $2\sqrt{2}$ et $OM$ = 4
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $9\sqrt{2}$ et $OM$ = 18
-    \item[true] $x$ = $-9$ et $OM$ = 9
-    \item[false] $x$ = $9$ et $OM$ = 18
-    \item[false] $x$ = $27\sqrt{3}/2$ et $OM$ = 27
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (240.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x=-3/2$"] ++ (0:-1.5) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y=-3\sqrt{3}/2$"] ++ (90:-2.59);
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (45.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:1.41) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=\sqrt{2}$"] ++ (90:1.41);
     \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 3 et $\theta$ = $-5\pi/6$
-    \item[true] $OM$ = 3 et $\theta$ = $4\pi/3$
-    \item[false] $OM$ = 6 et $\theta$ = $-3\pi/4$
-    \item[false] $OM$ = 6 et $\theta$ = $\pi$
+    \item[true] $x$ = $\sqrt{2}$ et $\theta$ = $\pi/4$
+    \item[false] $x$ = $1$ et $\theta$ = $\pi/3$
+    \item[false] $x$ = $1$ et $\theta$ = $\pi/2$
+    \item[false] $x$ = $1$ et $\theta$ = $2\pi/3$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
     Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (480.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.5) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.59);
-    \pic ["$\theta=8\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-3$ et $y$ = $0$
-    \item[false] $x$ = $-3\sqrt{3}/2$ et $y$ = $3/2$
-    \item[true] $x$ = $-3/2$ et $y$ = $3\sqrt{3}/2$
-    \item[false] $x$ = $-3\sqrt{2}$ et $y$ = $3\sqrt{2}$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=3$, $y=0$ };
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/4$
-    \item[false] $OM$ = 6 et $\theta$ = $\pi/6$
-    \item[true] $OM$ = 3 et $\theta$ = $0$
-    \item[false] $OM$ = 6 et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $x=-3$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $-3\sqrt{2}/2$ et $\theta$ = $\pi/4$
-    \item[false] $y$ = $-3/2$ et $\theta$ = $\pi/6$
-    \item[true] $y$ = $0$ et $\theta$ = $\pi$
-    \item[false] $y$ = $-3\sqrt{3}/2$ et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 27\sqrt{2}/2)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $9\pi/4$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $81/2$ et $OM$ = 81
-    \item[false] $x$ = $-27/2$ et $OM$ = 27
-    \item[true] $x$ = $27\sqrt{2}/2$ et $OM$ = 27
-    \item[false] $x$ = $0$ et $OM$ = 27
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, -23\sqrt{3}/2)$ et pour rayon 23. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-69\sqrt{2}/2$ et $\theta$ = $-3\pi/4$
-    \item[true] $x$ = $-23/2$ et $\theta$ = $10\pi/3$
-    \item[false] $x$ = $-69\sqrt{2}/2$ et $\theta$ = $\pi$
-    \item[false] $x$ = $-69\sqrt{2}/2$ et $\theta$ = $-5\pi/6$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(-21\sqrt{2},-21\sqrt{2})$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 126 et $\theta$ = $\pi$
-    \item[true] $OM$ = 42 et $\theta$ = $5\pi/4$
-    \item[false] $OM$ = 84 et $\theta$ = $-5\pi/6$
-    \item[false] $OM$ = 126 et $\theta$ = $0$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(0,y)$ et pour rayon 41. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $41\sqrt{2}$ et $\theta$ = $3\pi/4$
-    \item[false] $y$ = $41\sqrt{3}/2$ et $\theta$ = $2\pi/3$
-    \item[true] $y$ = $41$ et $\theta$ = $5\pi/2$
-    \item[false] $y$ = $123/2$ et $\theta$ = $5\pi/6$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(18\sqrt{2},18\sqrt{2})$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 36 et $\theta$ = $2\pi/3$
-    \item[false] $OM$ = 36 et $\theta$ = $\pi/2$
-    \item[true] $OM$ = 36 et $\theta$ = $9\pi/4$
-    \item[false] $OM$ = 36 et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(-3,0)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 9 et $\theta$ = $\pi/6$
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/4$
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/3$
-    \item[true] $OM$ = 3 et $\theta$ = $\pi$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
 \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
     \coordinate[label=below  left:O] (O) at (0cm,0cm);
     \coordinate[label=below  left:] (x) at (1cm,0cm);
@@ -569,59 +182,104 @@
     \draw[-Stealth] (O) to [] ++ (90.0:3) coordinate[label=above right:M] (M);
     \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
     \draw[densely dotted] (Mx) to [] ++ (90:3.0);
-    \draw (1,1) node[right]{$y=3$};
+    \draw (1,1) node[right]{$OM=3$};
     \pic ["$\theta=\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
+    \item[false] $x$ = $-3\sqrt{3}$ et $y$ = $3$
+    \item[false] $x$ = $-3/2$ et $y$ = $3\sqrt{3}/2$
+    \item[true] $x$ = $0$ et $y$ = $3$
+    \item[false] $x$ = $-3\sqrt{2}/2$ et $y$ = $3\sqrt{2}/2$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, -3\sqrt{3}/2)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi/3$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $x$ = $3/2$ et $OM$ = 3
     \item[false] $x$ = $-9/2$ et $OM$ = 9
-    \item[true] $x$ = $0$ et $OM$ = 3
-    \item[false] $x$ = $-3\sqrt{2}$ et $OM$ = 6
-    \item[false] $x$ = $-9\sqrt{3}/2$ et $OM$ = 9
+    \item[false] $x$ = $-3\sqrt{2}/2$ et $OM$ = 3
+    \item[false] $x$ = $0$ et $OM$ = 3
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, -19)$ et pour rayon 19. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
+    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $-19/2$ et $\theta$ = $-3\pi/4$
-    \item[true] $x$ = $0$ et $\theta$ = $11\pi/2$
-    \item[false] $x$ = $-19/2$ et $\theta$ = $-2\pi/3$
-    \item[false] $x$ = $-19/2$ et $\theta$ = $-5\pi/6$
+    \item[true] $x$ = $47$ et $OM$ = 47
+    \item[false] $x$ = $141\sqrt{2}/2$ et $OM$ = 141
+    \item[false] $x$ = $47/2$ et $OM$ = 47
+    \item[false] $x$ = $47\sqrt{3}/2$ et $OM$ = 47
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour rayon 41 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $7\pi/2$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+    Un vecteur a pour coordonnées $(-26,y)$ et pour rayon 26. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $-41/2$ et $y$ = $-41\sqrt{3}/2$
-    \item[false] $x$ = $-41\sqrt{3}$ et $y$ = $-41$
-    \item[true] $x$ = $0$ et $y$ = $-41$
-    \item[false] $x$ = $-41\sqrt{2}/2$ et $y$ = $-41\sqrt{2}/2$
+    \item[true] $y$ = $0$ et $\theta$ = $9\pi$
+    \item[false] $y$ = $-13$ et $\theta$ = $\pi/6$
+    \item[false] $y$ = $-13\sqrt{2}$ et $\theta$ = $\pi/4$
+    \item[false] $y$ = $-39\sqrt{3}$ et $\theta$ = $\pi/3$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
 \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
     \coordinate[label=below  left:O] (O) at (0cm,0cm);
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (120.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x=-3/2$"] ++ (0:-1.5) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.59);
-    \pic ["$\theta=2\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+    \draw[-Stealth] (O) to [] ++ (450.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$y=3$};
+    \pic ["$\theta=5\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $y$ = $3/2$ et $OM$ = 3
-    \item[false] $y$ = $0$ et $OM$ = 9
-    \item[true] $y$ = $3\sqrt{3}/2$ et $OM$ = 3
-    \item[false] $y$ = $9\sqrt{2}/2$ et $OM$ = 9
+    \item[false] $x$ = $-9/2$ et $OM$ = 9
+    \item[false] $x$ = $-3\sqrt{2}/2$ et $OM$ = 3
+    \item[false] $x$ = $-3\sqrt{3}/2$ et $OM$ = 3
+    \item[true] $x$ = $0$ et $OM$ = 3
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 0)$ et pour rayon 20. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $30\sqrt{3}$ et $\theta$ = $\pi/3$
+    \item[false] $x$ = $30\sqrt{3}$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $30\sqrt{3}$ et $\theta$ = $\pi/4$
+    \item[true] $x$ = $-20$ et $\theta$ = $5\pi$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(0,23)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $OM$ = 23 et $\theta$ = $\pi/2$
+    \item[false] $OM$ = 46 et $\theta$ = $5\pi/6$
+    \item[false] $OM$ = 69 et $\theta$ = $2\pi/3$
+    \item[false] $OM$ = 46 et $\theta$ = $3\pi/4$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 50 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $75$ et $y$ = $75\sqrt{3}$
+    \item[false] $x$ = $25\sqrt{3}$ et $y$ = $25$
+    \item[true] $x$ = $50$ et $y$ = $0$
+    \item[false] $x$ = $25\sqrt{2}$ et $y$ = $25\sqrt{2}$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -639,195 +297,32 @@
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/6$
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/4$
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/3$
+    \item[false] $x$ = $9\sqrt{3}/2$ et $\theta$ = $\pi/4$
+    \item[false] $x$ = $9\sqrt{3}/2$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $9\sqrt{3}/2$ et $\theta$ = $\pi/3$
     \item[true] $x$ = $3$ et $\theta$ = $0$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
+    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
 \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
     \coordinate[label=below  left:O] (O) at (0cm,0cm);
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=3$, $y=0$ };
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/4$
-    \item[true] $OM$ = 3 et $\theta$ = $0$
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/3$
-    \item[false] $OM$ = 9 et $\theta$ = $\pi/6$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (270.0:3) coordinate[label=above right:M] (M);
+    \draw[-Stealth] (O) to [] ++ (810.0:3) coordinate[label=above right:M] (M);
     \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:-3.0);
-    \draw (1,1) node[right]{$x=0$, $y=-3$ };
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=9\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 6 et $\theta$ = $-5\pi/6$
-    \item[false] $OM$ = 6 et $\theta$ = $-3\pi/4$
-    \item[false] $OM$ = 6 et $\theta$ = $-2\pi/3$
-    \item[true] $OM$ = 3 et $\theta$ = $3\pi/2$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $69\sqrt{3}/2$ et $OM$ = 69
-    \item[false] $x$ = $23\sqrt{2}$ et $OM$ = 46
-    \item[true] $x$ = $23$ et $OM$ = 23
-    \item[false] $x$ = $69/2$ et $OM$ = 69
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $-37$ et $OM$ = 37
-    \item[false] $x$ = $37/2$ et $OM$ = 37
-    \item[false] $x$ = $37\sqrt{2}/2$ et $OM$ = 37
-    \item[false] $x$ = $37\sqrt{3}/2$ et $OM$ = 37
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour rayon 35. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $35\sqrt{3}$ et $\theta$ = $\pi/3$
-    \item[false] $x$ = $35\sqrt{3}$ et $\theta$ = $\pi/4$
-    \item[true] $x$ = $35$ et $\theta$ = $0$
-    \item[false] $x$ = $35\sqrt{3}$ et $\theta$ = $\pi/6$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=-3$};
-    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $-9/2$ et $OM$ = 9
-    \item[false] $y$ = $-3\sqrt{3}$ et $OM$ = 6
-    \item[true] $y$ = $0$ et $OM$ = 3
-    \item[false] $y$ = $-9\sqrt{2}/2$ et $OM$ = 9
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(35, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $35\sqrt{2}/2$ et $OM$ = 35
-    \item[false] $y$ = $35\sqrt{3}$ et $OM$ = 70
-    \item[true] $y$ = $0$ et $OM$ = 35
-    \item[false] $y$ = $35$ et $OM$ = 70
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(6,0)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 12 et $\theta$ = $\pi/3$
-    \item[false] $OM$ = 6 et $\theta$ = $\pi/6$
-    \item[false] $OM$ = 6 et $\theta$ = $\pi/4$
-    \item[true] $OM$ = 6 et $\theta$ = $0$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=2$, $x=-2$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[true] $y$ = $0$ et $\theta$ = $\pi$
-    \item[false] $y$ = $-\sqrt{2}$ et $\theta$ = $\pi/4$
-    \item[false] $y$ = $-2$ et $\theta$ = $\pi/6$
-    \item[false] $y$ = $-3\sqrt{3}$ et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=3$, $y=0$ };
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/3$
-    \item[false] $OM$ = 9 et $\theta$ = $\pi/6$
-    \item[true] $OM$ = 3 et $\theta$ = $0$
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/4$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (270.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:-2.0);
-    \draw (1,1) node[right]{$OM=2$, $y=-2$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-1$ et $\theta$ = $-2\pi/3$
-    \item[true] $x$ = $0$ et $\theta$ = $3\pi/2$
-    \item[false] $x$ = $-1$ et $\theta$ = $-3\pi/4$
-    \item[false] $x$ = $-1$ et $\theta$ = $-5\pi/6$
+    \item[false] $x$ = $-3$ et $y$ = $3\sqrt{3}$
+    \item[true] $x$ = $0$ et $y$ = $3$
+    \item[false] $x$ = $-9\sqrt{2}/2$ et $y$ = $9\sqrt{2}/2$
+    \item[false] $x$ = $-3\sqrt{3}$ et $y$ = $3$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -852,213 +347,39 @@
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, -8)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi/2$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (300.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=3/2$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-2.59);
+    \pic ["$\theta=5\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $-4\sqrt{2}$ et $OM$ = 8
-    \item[true] $x$ = $0$ et $OM$ = 8
-    \item[false] $x$ = $-4\sqrt{3}$ et $OM$ = 8
-    \item[false] $x$ = $-8$ et $OM$ = 16
+    \item[false] $y$ = $-3\sqrt{3}/2$ et $OM$ = 3
+    \item[false] $y$ = $-3$ et $OM$ = 3
+    \item[false] $y$ = $-9\sqrt{2}/2$ et $OM$ = 9
+    \item[true] $y$ = $-3\sqrt{3}/2$ et $OM$ = 3
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+    Un vecteur a pour coordonnées $(x, 14\sqrt{3})$ et pour rayon 28. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $19/2$ et $OM$ = 19
-    \item[false] $x$ = $19\sqrt{2}/2$ et $OM$ = 19
-    \item[true] $x$ = $-19$ et $OM$ = 19
-    \item[false] $x$ = $19\sqrt{3}/2$ et $OM$ = 19
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour rayon 25. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $25$ et $\theta$ = $0$
-    \item[false] $x$ = $25\sqrt{3}/2$ et $\theta$ = $\pi/3$
-    \item[false] $x$ = $25\sqrt{3}/2$ et $\theta$ = $\pi/4$
-    \item[false] $x$ = $25\sqrt{3}/2$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $0$ et $\theta$ = $2\pi/3$
+    \item[false] $x$ = $0$ et $\theta$ = $3\pi/4$
+    \item[false] $x$ = $0$ et $\theta$ = $\pi/2$
+    \item[true] $x$ = $14$ et $\theta$ = $7\pi/3$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
     Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=-3$, $y=0$ };
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[true] $OM$ = 3 et $\theta$ = $\pi$
-    \item[false] $OM$ = 9 et $\theta$ = $\pi/4$
-    \item[false] $OM$ = 6 et $\theta$ = $\pi/6$
-    \item[false] $OM$ = 9 et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $x=-3$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $-3\sqrt{2}/2$ et $\theta$ = $\pi/4$
-    \item[false] $y$ = $-3\sqrt{3}$ et $\theta$ = $\pi/3$
-    \item[true] $y$ = $0$ et $\theta$ = $\pi$
-    \item[false] $y$ = $-3/2$ et $\theta$ = $\pi/6$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(46,y)$ et pour rayon 46. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $23$ et $\theta$ = $\pi/6$
-    \item[false] $y$ = $23\sqrt{2}$ et $\theta$ = $\pi/4$
-    \item[true] $y$ = $0$ et $\theta$ = $0$
-    \item[false] $y$ = $69\sqrt{3}$ et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (150.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-2.59) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.5);
-    \pic ["$\theta=5\pi/6$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $3\sqrt{3}$ et $y$ = $-3$
-    \item[false] $x$ = $-3$ et $y$ = $0$
-    \item[false] $x$ = $3\sqrt{2}$ et $y$ = $-3\sqrt{2}$
-    \item[true] $x$ = $-3\sqrt{3}/2$ et $y$ = $3/2$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (540.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $y=0$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/4$
-    \item[true] $x$ = $-3$ et $\theta$ = $3\pi$
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/6$
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (135.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-2.12) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.12);
-    \pic ["$\theta=3\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-3$ et $y$ = $0$
-    \item[false] $x$ = $-3\sqrt{3}/2$ et $y$ = $3/2$
-    \item[false] $x$ = $9\sqrt{3}/2$ et $y$ = $-9/2$
-    \item[true] $x$ = $-3\sqrt{2}/2$ et $y$ = $3\sqrt{2}/2$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $3\sqrt{2}/2$ et $y$ = $3\sqrt{2}/2$
-    \item[true] $x$ = $3$ et $y$ = $0$
-    \item[false] $x$ = $3/2$ et $y$ = $3\sqrt{3}/2$
-    \item[false] $x$ = $3\sqrt{3}$ et $y$ = $3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (990.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:-3.0);
-    \draw (1,1) node[right]{$y=-3$};
-    \pic ["$\theta=11\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-3\sqrt{3}/2$ et $OM$ = 3
-    \item[false] $x$ = $-3\sqrt{2}/2$ et $OM$ = 3
-    \item[false] $x$ = $-3$ et $OM$ = 6
-    \item[true] $x$ = $0$ et $OM$ = 3
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(-7\sqrt{3},-7)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $OM$ = 14 et $\theta$ = $\pi/6$
-    \item[true] $OM$ = 14 et $\theta$ = $7\pi/6$
-    \item[false] $OM$ = 14 et $\theta$ = $\pi$
-    \item[false] $OM$ = 42 et $\theta$ = $0$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
 \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
     \coordinate[label=below  left:O] (O) at (0cm,0cm);
     \coordinate[label=below  left:] (x) at (1cm,0cm);
@@ -1067,27 +388,38 @@
     \draw[-Stealth] (O) to [] ++ (900.0:3) coordinate[label=above right:M] (M);
     \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
     \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$, $y=0$};
+    \draw (1,1) node[right]{$x=-3$, $y=0$ };
     \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[true] $x$ = $-3$ et $\theta$ = $5\pi$
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/3$
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/6$
-    \item[false] $x$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 6 et $\theta$ = $\pi/6$
+    \item[true] $OM$ = 3 et $\theta$ = $5\pi$
+    \item[false] $OM$ = 3 et $\theta$ = $\pi/3$
+    \item[false] $OM$ = 9 et $\theta$ = $\pi/4$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(-10,0)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+    Un vecteur a pour rayon 41 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi/2$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 30 et $\theta$ = $\pi/4$
-    \item[false] $OM$ = 10 et $\theta$ = $\pi/6$
-    \item[true] $OM$ = 10 et $\theta$ = $9\pi$
-    \item[false] $OM$ = 10 et $\theta$ = $\pi/3$
+    \item[false] $x$ = $-41\sqrt{2}/2$ et $y$ = $-41\sqrt{2}/2$
+    \item[false] $x$ = $-123\sqrt{3}/2$ et $y$ = $-123/2$
+    \item[true] $x$ = $0$ et $y$ = $-41$
+    \item[false] $x$ = $-41/2$ et $y$ = $-41\sqrt{3}/2$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 23 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $23\sqrt{3}$ et $y$ = $-23$
+    \item[false] $x$ = $23\sqrt{2}/2$ et $y$ = $-23\sqrt{2}/2$
+    \item[false] $x$ = $69/2$ et $y$ = $-69\sqrt{3}/2$
+    \item[true] $x$ = $-23$ et $y$ = $0$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1097,52 +429,18 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (1620.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
     \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$y=0$};
-    \pic ["$\theta=9\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
+    \draw (1,1) node[right]{$y=0$, $\theta=0$};
+    \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $2$ et $OM$ = 4
-    \item[false] $x$ = $\sqrt{2}$ et $OM$ = 2
-    \item[false] $x$ = $3\sqrt{3}$ et $OM$ = 6
-    \item[true] $x$ = $-2$ et $OM$ = 2
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(17\sqrt{2}/2,y)$ et pour rayon 17. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $-17\sqrt{3}/2$ et $\theta$ = $-2\pi/3$
-    \item[false] $y$ = $-17\sqrt{3}/2$ et $\theta$ = $\pi/3$
-    \item[true] $y$ = $-17\sqrt{2}/2$ et $\theta$ = $7\pi/4$
-    \item[false] $y$ = $-17$ et $\theta$ = $\pi/2$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (450.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:2.0);
-    \draw (1,1) node[right]{$OM=2$, $y=2$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $0$ et $\theta$ = $5\pi/2$
-    \item[false] $x$ = $-1$ et $\theta$ = $3\pi/4$
-    \item[false] $x$ = $-1$ et $\theta$ = $5\pi/6$
-    \item[false] $x$ = $-1$ et $\theta$ = $2\pi/3$
+    \item[false] $x$ = $3\sqrt{2}/2$ et $OM$ = 3
+    \item[false] $x$ = $9/2$ et $OM$ = 9
+    \item[true] $x$ = $3$ et $OM$ = 3
+    \item[false] $x$ = $9\sqrt{3}/2$ et $OM$ = 9
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1152,202 +450,19 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (300.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x=1$"] ++ (0:1.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y=-\sqrt{3}$"] ++ (90:-1.73);
+    \draw[-Stealth] (O) to [] ++ (900.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=-3$, $y=0$ };
     \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 2 et $\theta$ = $-2\pi/3$
-    \item[false] $OM$ = 6 et $\theta$ = $-3\pi/4$
-    \item[false] $OM$ = 6 et $\theta$ = $\pi/2$
-    \item[true] $OM$ = 2 et $\theta$ = $5\pi/3$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $19$ et $OM$ = 19
-    \item[false] $x$ = $19/2$ et $OM$ = 19
-    \item[false] $x$ = $19\sqrt{3}$ et $OM$ = 38
-    \item[false] $x$ = $19\sqrt{2}/2$ et $OM$ = 19
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (1980.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=-3$};
-    \pic ["$\theta=11\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[true] $y$ = $0$ et $OM$ = 3
-    \item[false] $y$ = $-3/2$ et $OM$ = 3
-    \item[false] $y$ = $-3\sqrt{3}/2$ et $OM$ = 3
-    \item[false] $y$ = $-3\sqrt{2}$ et $OM$ = 6
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $35$ et $OM$ = 35
-    \item[false] $x$ = $35\sqrt{3}/2$ et $OM$ = 35
-    \item[false] $x$ = $35/2$ et $OM$ = 35
-    \item[false] $x$ = $35\sqrt{2}/2$ et $OM$ = 35
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=3$};
-    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $9\sqrt{3}/2$ et $y$ = $-9/2$
-    \item[false] $x$ = $3/2$ et $y$ = $-3\sqrt{3}/2$
-    \item[false] $x$ = $3\sqrt{2}/2$ et $y$ = $-3\sqrt{2}/2$
-    \item[true] $x$ = $-3$ et $y$ = $0$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (810.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
-    \draw (1,1) node[right]{$OM=3$};
-    \pic ["$\theta=9\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-3\sqrt{3}$ et $y$ = $3$
-    \item[false] $x$ = $-3/2$ et $y$ = $3\sqrt{3}/2$
-    \item[true] $x$ = $0$ et $y$ = $3$
-    \item[false] $x$ = $-3\sqrt{2}/2$ et $y$ = $3\sqrt{2}/2$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (495.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x=-\sqrt{2}$"] ++ (0:-1.41) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.41);
-    \pic ["$\theta=11\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $0$ et $OM$ = 2
-    \item[true] $y$ = $\sqrt{2}$ et $OM$ = 2
-    \item[false] $y$ = $2$ et $OM$ = 4
-    \item[false] $y$ = $-2$ et $OM$ = 4
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=2$, $\theta=0$};
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[true] $y$ = $0$ et $OM$ = 2
-    \item[false] $y$ = $\sqrt{3}$ et $OM$ = 2
-    \item[false] $y$ = $\sqrt{2}$ et $OM$ = 2
-    \item[false] $y$ = $2$ et $OM$ = 4
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $46$ et $OM$ = 46
-    \item[false] $x$ = $23\sqrt{2}$ et $OM$ = 46
-    \item[false] $x$ = $23\sqrt{3}$ et $OM$ = 46
-    \item[false] $x$ = $69$ et $OM$ = 138
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 21\sqrt{3})$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $7\pi/3$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $21$ et $OM$ = 42
-    \item[false] $x$ = $0$ et $OM$ = 84
-    \item[false] $x$ = $-63\sqrt{2}$ et $OM$ = 126
-    \item[false] $x$ = $-21$ et $OM$ = 42
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $11\sqrt{2}$ et $OM$ = 22
-    \item[false] $x$ = $33\sqrt{3}/2$ et $OM$ = 33
-    \item[true] $x$ = $-11$ et $OM$ = 11
-    \item[false] $x$ = $11$ et $OM$ = 22
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (225.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.41) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-1.41);
-    \pic ["$\theta=5\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-2$ et $y$ = $0$
-    \item[false] $x$ = $-3\sqrt{3}$ et $y$ = $-3$
-    \item[false] $x$ = $6$ et $y$ = $0$
-    \item[true] $x$ = $-\sqrt{2}$ et $y$ = $-\sqrt{2}$
+    \item[false] $OM$ = 6 et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 3 et $\theta$ = $\pi/3$
+    \item[false] $OM$ = 9 et $\theta$ = $\pi/6$
+    \item[true] $OM$ = 3 et $\theta$ = $5\pi$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1357,19 +472,29 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (450.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
-    \draw (1,1) node[right]{$OM=3$, $x=0$};
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (315.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=\sqrt{2}$"] ++ (0:1.41) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-1.41);
     \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $y$ = $3\sqrt{2}$ et $\theta$ = $3\pi/4$
-    \item[false] $y$ = $3/2$ et $\theta$ = $5\pi/6$
-    \item[false] $y$ = $9\sqrt{3}/2$ et $\theta$ = $2\pi/3$
-    \item[true] $y$ = $3$ et $\theta$ = $5\pi/2$
+    \item[false] $y$ = $-\sqrt{3}$ et $\theta$ = $-2\pi/3$
+    \item[false] $y$ = $-6$ et $\theta$ = $\pi/2$
+    \item[true] $y$ = $-\sqrt{2}$ et $\theta$ = $7\pi/4$
+    \item[false] $y$ = $-\sqrt{3}$ et $\theta$ = $\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-5,-5\sqrt{3})$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $OM$ = 20 et $\theta$ = $-5\pi/6$
+    \item[false] $OM$ = 30 et $\theta$ = $-3\pi/4$
+    \item[false] $OM$ = 20 et $\theta$ = $\pi$
+    \item[true] $OM$ = 10 et $\theta$ = $4\pi/3$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1387,10 +512,10 @@
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $\sqrt{3}$ et $\theta$ = $\pi/4$
-    \item[false] $x$ = $\sqrt{3}$ et $\theta$ = $\pi/6$
     \item[true] $x$ = $2$ et $\theta$ = $0$
-    \item[false] $x$ = $\sqrt{3}$ et $\theta$ = $\pi/3$
+    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/3$
+    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/4$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1408,86 +533,10 @@
 \end{question}
 
 \begin{reponses}
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 6 et $\theta$ = $\pi/3$
+    \item[false] $OM$ = 9 et $\theta$ = $\pi/4$
     \item[true] $OM$ = 3 et $\theta$ = $0$
-    \item[false] $OM$ = 3 et $\theta$ = $\pi/3$
     \item[false] $OM$ = 3 et $\theta$ = $\pi/6$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$x=3$, $\theta=0$};
-    \end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $y$ = $3\sqrt{2}/2$ et $OM$ = 3
-    \item[false] $y$ = $3\sqrt{3}/2$ et $OM$ = 3
-    \item[false] $y$ = $3$ et $OM$ = 6
-    \item[true] $y$ = $0$ et $OM$ = 3
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour rayon 3 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $9\sqrt{3}/2$ et $y$ = $9/2$
-    \item[false] $x$ = $9\sqrt{2}/2$ et $y$ = $9\sqrt{2}/2$
-    \item[false] $x$ = $3/2$ et $y$ = $3\sqrt{3}/2$
-    \item[true] $x$ = $3$ et $y$ = $0$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour rayon 21 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[true] $x$ = $-21$ et $y$ = $0$
-    \item[false] $x$ = $21\sqrt{2}$ et $y$ = $-21\sqrt{2}$
-    \item[false] $x$ = $21$ et $y$ = $-21\sqrt{3}$
-    \item[false] $x$ = $21\sqrt{3}/2$ et $y$ = $-21/2$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
-\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
-    \coordinate[label=below  left:O] (O) at (0cm,0cm);
-    \coordinate[label=below  left:] (x) at (1cm,0cm);
-    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
-    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
-    \draw (1,1) node[right]{$OM=2$, $y=0$};
-    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
-\end{tikzpicture}
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $\sqrt{3}$ et $\theta$ = $\pi/6$
-    \item[true] $x$ = $-2$ et $\theta$ = $3\pi$
-    \item[false] $x$ = $\sqrt{3}$ et $\theta$ = $\pi/3$
-    \item[false] $x$ = $\sqrt{3}$ et $\theta$ = $\pi/4$
-\end{reponses}
-
-\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, -6)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi/2$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
-\end{question}
-
-\begin{reponses}
-    \item[false] $x$ = $-9\sqrt{3}$ et $OM$ = 18
-    \item[false] $x$ = $-3\sqrt{2}$ et $OM$ = 6
-    \item[false] $x$ = $-9$ et $OM$ = 18
-    \item[true] $x$ = $0$ et $OM$ = 6
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1497,19 +546,138 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
     \draw[densely dotted] (Mx) to [] ++ (90:0.0);
     \draw (1,1) node[right]{$y=0$};
-    \pic ["$\theta=\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $3\sqrt{2}/2$ et $OM$ = 3
-    \item[false] $x$ = $9\sqrt{3}/2$ et $OM$ = 9
-    \item[false] $x$ = $9/2$ et $OM$ = 9
-    \item[true] $x$ = $-3$ et $OM$ = 3
+    \item[true] $x$ = $-2$ et $OM$ = 2
+    \item[false] $x$ = $\sqrt{2}$ et $OM$ = 2
+    \item[false] $x$ = $\sqrt{3}$ et $OM$ = 2
+    \item[false] $x$ = $1$ et $OM$ = 2
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-3,0)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $OM$ = 6 et $\theta$ = $\pi/6$
+    \item[true] $OM$ = 3 et $\theta$ = $11\pi$
+    \item[false] $OM$ = 9 et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 3 et $\theta$ = $\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (1620.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $x=-3$};
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $-3\sqrt{3}/2$ et $\theta$ = $\pi/3$
+    \item[false] $y$ = $-9\sqrt{2}/2$ et $\theta$ = $\pi/4$
+    \item[true] $y$ = $0$ et $\theta$ = $9\pi$
+    \item[false] $y$ = $-9/2$ et $\theta$ = $\pi/6$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-47\sqrt{2}/2,47\sqrt{2}/2)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $OM$ = 47 et $\theta$ = $11\pi/4$
+    \item[false] $OM$ = 141 et $\theta$ = $5\pi/6$
+    \item[false] $OM$ = 47 et $\theta$ = $\pi$
+    \item[false] $OM$ = 141 et $\theta$ = $\pi/6$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (135.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=-3\sqrt{2}/2$"] ++ (0:-2.12) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.12);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $-3/2$ et $\theta$ = $\pi/6$
+    \item[false] $y$ = $0$ et $\theta$ = $\pi$
+    \item[true] $y$ = $3\sqrt{2}/2$ et $\theta$ = $3\pi/4$
+    \item[false] $y$ = $3/2$ et $\theta$ = $5\pi/6$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, -28)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $7\pi/2$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $-42$ et $OM$ = 84
+    \item[false] $x$ = $-28\sqrt{2}$ et $OM$ = 56
+    \item[false] $x$ = $-14\sqrt{3}$ et $OM$ = 28
+    \item[true] $x$ = $0$ et $OM$ = 28
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $15\sqrt{3}$ et $OM$ = 30
+    \item[true] $x$ = $-15$ et $OM$ = 15
+    \item[false] $x$ = $45\sqrt{2}/2$ et $OM$ = 45
+    \item[false] $x$ = $15/2$ et $OM$ = 15
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (120.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["y=$3\sqrt{3}/2$"] ++ (90:2.59);
+    \pic ["$\theta=2\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $-9\sqrt{3}/2$ et $OM$ = 9
+    \item[false] $x$ = $-6$ et $OM$ = 6
+    \item[true] $x$ = $-3/2$ et $OM$ = 3
+    \item[false] $x$ = $-3\sqrt{2}/2$ et $OM$ = 3
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(0,y)$ et pour rayon 34. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $34\sqrt{3}$ et $\theta$ = $2\pi/3$
+    \item[true] $y$ = $34$ et $\theta$ = $\pi/2$
+    \item[false] $y$ = $51$ et $\theta$ = $5\pi/6$
+    \item[false] $y$ = $17\sqrt{2}$ et $\theta$ = $3\pi/4$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1519,18 +687,40 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (495.0:3) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x=-3\sqrt{2}/2$"] ++ (0:-2.12) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.12);
-    \pic ["$\theta=11\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+    \draw[-Stealth] (O) to [] ++ (990.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:-2.0);
+    \draw (1,1) node[right]{$x=0$};
+    \pic ["$\theta=11\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[true] $y$ = $3\sqrt{2}/2$ et $OM$ = 3
-    \item[false] $y$ = $9/2$ et $OM$ = 9
-    \item[false] $y$ = $0$ et $OM$ = 9
-    \item[false] $y$ = $-9/2$ et $OM$ = 9
+    \item[false] $y$ = $-2\sqrt{2}$ et $OM$ = 4
+    \item[false] $y$ = $-1$ et $OM$ = 2
+    \item[false] $y$ = $-3\sqrt{3}$ et $OM$ = 6
+    \item[true] $y$ = $-2$ et $OM$ = 2
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (135.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=-\sqrt{2}$"] ++ (0:-1.41) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=\sqrt{2}$"] ++ (90:1.41);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $OM$ = 6 et $\theta$ = $5\pi/6$
+    \item[false] $OM$ = 6 et $\theta$ = $\pi/6$
+    \item[true] $OM$ = 2 et $\theta$ = $3\pi/4$
+    \item[false] $OM$ = 6 et $\theta$ = $\pi$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1551,29 +741,84 @@
 \begin{reponses}
     \item[false] $x$ = $-3$ et $\theta$ = $3\pi/4$
     \item[false] $x$ = $-3$ et $\theta$ = $2\pi/3$
-    \item[false] $x$ = $-3$ et $\theta$ = $5\pi/6$
     \item[true] $x$ = $0$ et $\theta$ = $5\pi/2$
+    \item[false] $x$ = $-3$ et $\theta$ = $5\pi/6$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+    Un vecteur a pour rayon 6 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $6\sqrt{2}$ et $y$ = $-6\sqrt{2}$
+    \item[false] $x$ = $3\sqrt{3}$ et $y$ = $-3$
+    \item[true] $x$ = $-6$ et $y$ = $0$
+    \item[false] $x$ = $3$ et $y$ = $-3\sqrt{3}$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
 \begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
     \coordinate[label=below  left:O] (O) at (0cm,0cm);
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (480.0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to ["$x$"] ++ (0:-1.0) coordinate (Mx);
-    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:1.73);
-    \pic ["$\theta=8\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+    \draw[-Stealth] (O) to [] ++ (90.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$OM=3$, $y=3$};
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
 \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[true] $x$ = $-1$ et $y$ = $\sqrt{3}$
-    \item[false] $x$ = $-\sqrt{2}$ et $y$ = $\sqrt{2}$
-    \item[false] $x$ = $-\sqrt{3}$ et $y$ = $1$
-    \item[false] $x$ = $-6$ et $y$ = $0$
+    \item[false] $x$ = $-3$ et $\theta$ = $3\pi/4$
+    \item[false] $x$ = $-3$ et $\theta$ = $2\pi/3$
+    \item[true] $x$ = $0$ et $\theta$ = $\pi/2$
+    \item[false] $x$ = $-3$ et $\theta$ = $5\pi/6$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (420.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=3/2$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.59);
+    \pic ["$\theta=7\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $3$ et $OM$ = 3
+    \item[false] $y$ = $3\sqrt{2}$ et $OM$ = 6
+    \item[true] $y$ = $3\sqrt{3}/2$ et $OM$ = 3
+    \item[false] $y$ = $3\sqrt{3}/2$ et $OM$ = 3
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(5, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi/3$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $10\sqrt{2}$ et $OM$ = 20
+    \item[false] $y$ = $10\sqrt{3}$ et $OM$ = 20
+    \item[false] $y$ = $10$ et $OM$ = 10
+    \item[true] $y$ = $5\sqrt{3}$ et $OM$ = 10
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(23,0)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $OM$ = 23 et $\theta$ = $0$
+    \item[false] $OM$ = 69 et $\theta$ = $\pi/6$
+    \item[false] $OM$ = 69 et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 23 et $\theta$ = $\pi/3$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1583,18 +828,253 @@
     \coordinate[label=below  left:] (x) at (1cm,0cm);
     \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
     \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
-    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
-    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
     \draw[densely dotted] (Mx) to [] ++ (90:0.0);
     \draw (1,1) node[right]{$y=0$, $\theta=0$};
     \end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[false] $x$ = $\sqrt{3}$ et $OM$ = 2
-    \item[false] $x$ = $1$ et $OM$ = 2
-    \item[true] $x$ = $2$ et $OM$ = 2
-    \item[false] $x$ = $2\sqrt{2}$ et $OM$ = 4
+    \item[false] $x$ = $3\sqrt{2}/2$ et $OM$ = 3
+    \item[false] $x$ = $9\sqrt{3}/2$ et $OM$ = 9
+    \item[true] $x$ = $3$ et $OM$ = 3
+    \item[false] $x$ = $9/2$ et $OM$ = 9
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (315.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=3\sqrt{2}/2$"] ++ (0:2.12) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-2.12);
+    \pic ["$\theta=7\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $y$ = $-3\sqrt{2}/2$ et $OM$ = 3
+    \item[false] $y$ = $-9\sqrt{3}/2$ et $OM$ = 9
+    \item[false] $y$ = $-6$ et $OM$ = 6
+    \item[false] $y$ = $-9\sqrt{3}/2$ et $OM$ = 9
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (120.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=-1$"] ++ (0:-1.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=\sqrt{3}$"] ++ (90:1.73);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $OM$ = 2 et $\theta$ = $5\pi/6$
+    \item[true] $OM$ = 2 et $\theta$ = $2\pi/3$
+    \item[false] $OM$ = 2 et $\theta$ = $3\pi/4$
+    \item[false] $OM$ = 2 et $\theta$ = $\pi$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 47 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $47$ et $y$ = $47\sqrt{3}$
+    \item[false] $x$ = $47\sqrt{3}/2$ et $y$ = $47/2$
+    \item[true] $x$ = $47$ et $y$ = $0$
+    \item[false] $x$ = $47\sqrt{2}/2$ et $y$ = $47\sqrt{2}/2$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 19 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $11\pi/6$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $19\sqrt{2}/2$ et $y$ = $-19\sqrt{2}/2$
+    \item[true] $x$ = $19\sqrt{3}/2$ et $y$ = $-19/2$
+    \item[false] $x$ = $0$ et $y$ = $-19$
+    \item[false] $x$ = $19$ et $y$ = $-19\sqrt{3}$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$y=0$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $9\sqrt{2}/2$ et $OM$ = 9
+    \item[true] $x$ = $3$ et $OM$ = 3
+    \item[false] $x$ = $3\sqrt{3}$ et $OM$ = 6
+    \item[false] $x$ = $3/2$ et $OM$ = 3
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 39)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi/2$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $-39\sqrt{2}$ et $OM$ = 78
+    \item[false] $x$ = $-39\sqrt{3}/2$ et $OM$ = 39
+    \item[false] $x$ = $-39$ et $OM$ = 78
+    \item[true] $x$ = $0$ et $OM$ = 39
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (300.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["y=$-3\sqrt{3}/2$"] ++ (90:-2.59);
+    \pic ["$\theta=5\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $-3/2$ et $OM$ = 3
+    \item[false] $x$ = $-9\sqrt{2}/2$ et $OM$ = 9
+    \item[false] $x$ = $0$ et $OM$ = 9
+    \item[true] $x$ = $3/2$ et $OM$ = 3
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=2$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $1$ et $y$ = $\sqrt{3}$
+    \item[false] $x$ = $\sqrt{3}$ et $y$ = $1$
+    \item[false] $x$ = $\sqrt{2}$ et $y$ = $\sqrt{2}$
+    \item[true] $x$ = $2$ et $y$ = $0$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 0)$ et pour rayon 32. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $16\sqrt{3}$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $16\sqrt{3}$ et $\theta$ = $\pi/3$
+    \item[false] $x$ = $16\sqrt{3}$ et $\theta$ = $\pi/4$
+    \item[true] $x$ = $32$ et $\theta$ = $0$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $15\sqrt{2}/2$ et $OM$ = 15
+    \item[true] $x$ = $15$ et $OM$ = 15
+    \item[false] $x$ = $15\sqrt{3}$ et $OM$ = 30
+    \item[false] $x$ = $15/2$ et $OM$ = 15
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-23/2,y)$ et pour rayon 23. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $-23$ et $\theta$ = $-5\pi/6$
+    \item[false] $y$ = $0$ et $\theta$ = $\pi$
+    \item[true] $y$ = $-23\sqrt{3}/2$ et $\theta$ = $10\pi/3$
+    \item[false] $y$ = $-23\sqrt{2}/2$ et $\theta$ = $-3\pi/4$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=-3$, $y=0$ };
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $OM$ = 3 et $\theta$ = $\pi$
+    \item[false] $OM$ = 3 et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 3 et $\theta$ = $\pi/6$
+    \item[false] $OM$ = 6 et $\theta$ = $\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (660.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=3/2$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-2.59);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $-3\sqrt{2}$ et $\theta$ = $-3\pi/4$
+    \item[false] $y$ = $-6$ et $\theta$ = $\pi/2$
+    \item[true] $y$ = $-3\sqrt{3}/2$ et $\theta$ = $11\pi/3$
+    \item[false] $y$ = $-3\sqrt{3}$ et $\theta$ = $-2\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (60.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=3/2$"] ++ (0:1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.59);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $6$ et $\theta$ = $\pi/2$
+    \item[false] $y$ = $3\sqrt{3}/2$ et $\theta$ = $2\pi/3$
+    \item[true] $y$ = $3\sqrt{3}/2$ et $\theta$ = $\pi/3$
+    \item[false] $y$ = $3\sqrt{2}/2$ et $\theta$ = $3\pi/4$
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
@@ -1612,53 +1092,518 @@
 \end{question}
 
 \begin{reponses}
-    \item[false] $y$ = $3\sqrt{2}/2$ et $OM$ = 3
-    \item[false] $y$ = $3\sqrt{3}/2$ et $OM$ = 3
-    \item[true] $y$ = $0$ et $OM$ = 3
+    \item[false] $y$ = $9\sqrt{3}/2$ et $OM$ = 9
     \item[false] $y$ = $3/2$ et $OM$ = 3
+    \item[false] $y$ = $3\sqrt{2}/2$ et $OM$ = 3
+    \item[true] $y$ = $0$ et $OM$ = 3
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(-39\sqrt{3}/2,39/2)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
-    \item[true] $OM$ = 39 et $\theta$ = $5\pi/6$
-    \item[false] $OM$ = 117 et $\theta$ = $\pi/4$
-    \item[false] $OM$ = 117 et $\theta$ = $\pi/6$
-    \item[false] $OM$ = 39 et $\theta$ = $\pi$
+    \item[false] $x$ = $49\sqrt{3}$ et $OM$ = 98
+    \item[false] $x$ = $49\sqrt{2}/2$ et $OM$ = 49
+    \item[true] $x$ = $49$ et $OM$ = 49
+    \item[false] $x$ = $49$ et $OM$ = 98
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(0,22)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (270.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:-3.0);
+    \draw (1,1) node[right]{$x=0$};
+    \pic ["$\theta=3\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[true] $OM$ = 22 et $\theta$ = $5\pi/2$
-    \item[false] $OM$ = 44 et $\theta$ = $3\pi/4$
-    \item[false] $OM$ = 22 et $\theta$ = $2\pi/3$
-    \item[false] $OM$ = 44 et $\theta$ = $5\pi/6$
+    \item[false] $y$ = $-3/2$ et $OM$ = 3
+    \item[false] $y$ = $-9\sqrt{2}/2$ et $OM$ = 9
+    \item[true] $y$ = $-3$ et $OM$ = 3
+    \item[false] $y$ = $-9\sqrt{3}/2$ et $OM$ = 9
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour coordonnées $(x, 0)$ et pour rayon 49. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (1980.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$y=0$};
+    \pic ["$\theta=11\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
 \end{question}
 
 \begin{reponses}
-    \item[true] $x$ = $-49$ et $\theta$ = $11\pi$
-    \item[false] $x$ = $49\sqrt{3}/2$ et $\theta$ = $\pi/3$
-    \item[false] $x$ = $49\sqrt{3}/2$ et $\theta$ = $\pi/4$
-    \item[false] $x$ = $49\sqrt{3}/2$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $9\sqrt{2}/2$ et $OM$ = 9
+    \item[false] $x$ = $3\sqrt{3}/2$ et $OM$ = 3
+    \item[false] $x$ = $3/2$ et $OM$ = 3
+    \item[true] $x$ = $-3$ et $OM$ = 3
 \end{reponses}
 
 \begin{question}{/}{Vecteurs}{2}{1217,31,1213}
-    Un vecteur a pour rayon 40 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+    Un vecteur a pour coordonnées $(5,0)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $OM$ = 5 et $\theta$ = $0$
+    \item[false] $OM$ = 15 et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 5 et $\theta$ = $\pi/6$
+    \item[false] $OM$ = 15 et $\theta$ = $\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (630.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:-2.0);
+    \draw (1,1) node[right]{$y=-2$};
+    \pic ["$\theta=7\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $-\sqrt{2}$ et $OM$ = 2
+    \item[false] $x$ = $-\sqrt{3}$ et $OM$ = 2
+    \item[false] $x$ = $-1$ et $OM$ = 2
+    \item[true] $x$ = $0$ et $OM$ = 2
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (135.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:-2.12) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:2.12);
+    \pic ["$\theta=3\pi/4$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $9\sqrt{3}/2$ et $y$ = $-9/2$
+    \item[false] $x$ = $-3$ et $y$ = $0$
+    \item[false] $x$ = $-3\sqrt{3}/2$ et $y$ = $3/2$
+    \item[true] $x$ = $-3\sqrt{2}/2$ et $y$ = $3\sqrt{2}/2$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-31\sqrt{2}/2,31\sqrt{2}/2)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $OM$ = 31 et $\theta$ = $\pi/6$
+    \item[false] $OM$ = 31 et $\theta$ = $\pi$
+    \item[true] $OM$ = 31 et $\theta$ = $11\pi/4$
+    \item[false] $OM$ = 93 et $\theta$ = $5\pi/6$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=3$",sloped] ++ (45.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:2.12) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y=3\sqrt{2}/2$"] ++ (90:2.12);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $3/2$ et $\theta$ = $2\pi/3$
+    \item[true] $x$ = $3\sqrt{2}/2$ et $\theta$ = $\pi/4$
+    \item[false] $x$ = $3/2$ et $\theta$ = $\pi/3$
+    \item[false] $x$ = $3/2$ et $\theta$ = $\pi/2$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (540.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$y=0$};
+    \pic ["$\theta=3\pi$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $x$ = $-2$ et $OM$ = 2
+    \item[false] $x$ = $1$ et $OM$ = 2
+    \item[false] $x$ = $\sqrt{2}$ et $OM$ = 2
+    \item[false] $x$ = $\sqrt{3}$ et $OM$ = 2
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 20 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
 \end{question}
 
 \begin{reponses}
     \item[false] $x$ = $20$ et $y$ = $-20\sqrt{3}$
-    \item[false] $x$ = $60\sqrt{2}$ et $y$ = $-60\sqrt{2}$
-    \item[false] $x$ = $20\sqrt{3}$ et $y$ = $-20$
-    \item[true] $x$ = $-40$ et $y$ = $0$
+    \item[false] $x$ = $30\sqrt{2}$ et $y$ = $-30\sqrt{2}$
+    \item[false] $x$ = $10\sqrt{3}$ et $y$ = $-10$
+    \item[true] $x$ = $-20$ et $y$ = $0$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 24 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $11\pi/2$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $-36\sqrt{3}$ et $y$ = $-36$
+    \item[false] $x$ = $-24\sqrt{2}$ et $y$ = $-24\sqrt{2}$
+    \item[true] $x$ = $0$ et $y$ = $-24$
+    \item[false] $x$ = $-36$ et $y$ = $-36\sqrt{3}$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 0)$ et pour rayon 21. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $21\sqrt{3}$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $21\sqrt{3}$ et $\theta$ = $\pi/4$
+    \item[true] $x$ = $-21$ et $\theta$ = $\pi$
+    \item[false] $x$ = $21\sqrt{3}$ et $\theta$ = $\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $x$ = $3$ et $y$ = $0$
+    \item[false] $x$ = $3\sqrt{3}$ et $y$ = $3$
+    \item[false] $x$ = $3/2$ et $y$ = $3\sqrt{3}/2$
+    \item[false] $x$ = $9\sqrt{2}/2$ et $y$ = $9\sqrt{2}/2$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, -25)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $7\pi/6$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $x$ = $-25\sqrt{3}$ et $OM$ = 50
+    \item[false] $x$ = $25\sqrt{3}$ et $OM$ = 50
+    \item[false] $x$ = $-150$ et $OM$ = 150
+    \item[false] $x$ = $50$ et $OM$ = 50
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 9 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $9\sqrt{3}/2$ et $y$ = $9/2$
+    \item[false] $x$ = $9\sqrt{2}/2$ et $y$ = $9\sqrt{2}/2$
+    \item[false] $x$ = $9/2$ et $y$ = $9\sqrt{3}/2$
+    \item[true] $x$ = $9$ et $y$ = $0$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (240.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=-3/2$"] ++ (0:-1.5) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-2.59);
+    \pic ["$\theta=4\pi/3$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $y$ = $-3\sqrt{3}/2$ et $OM$ = 3
+    \item[false] $y$ = $0$ et $OM$ = 3
+    \item[false] $y$ = $-3$ et $OM$ = 6
+    \item[false] $y$ = $-3\sqrt{2}/2$ et $OM$ = 3
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent les coordonnées $x$ et $y$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (90.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:0.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:3.0);
+    \draw (1,1) node[right]{$OM=3$};
+    \pic ["$\theta=\pi/2$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $x$ = $0$ et $y$ = $3$
+    \item[false] $x$ = $-3/2$ et $y$ = $3\sqrt{3}/2$
+    \item[false] $x$ = $-3\sqrt{2}/2$ et $y$ = $3\sqrt{2}/2$
+    \item[false] $x$ = $-3\sqrt{3}/2$ et $y$ = $3/2$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-11, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $10\pi/3$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $-22\sqrt{2}$ et $OM$ = 44
+    \item[false] $y$ = $-11$ et $OM$ = 22
+    \item[false] $y$ = $0$ et $OM$ = 44
+    \item[true] $y$ = $-11\sqrt{3}$ et $OM$ = 22
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 9 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $9\sqrt{2}/2$ et $y$ = $9\sqrt{2}/2$
+    \item[false] $x$ = $9/2$ et $y$ = $9\sqrt{3}/2$
+    \item[false] $x$ = $9\sqrt{3}/2$ et $y$ = $9/2$
+    \item[true] $x$ = $9$ et $y$ = $0$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$x=2$, $y=0$ };
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $OM$ = 6 et $\theta$ = $\pi/3$
+    \item[false] $OM$ = 2 et $\theta$ = $\pi/4$
+    \item[false] $OM$ = 2 et $\theta$ = $\pi/6$
+    \item[true] $OM$ = 2 et $\theta$ = $0$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 20\sqrt{2})$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $3\pi/4$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $-60\sqrt{3}$ et $OM$ = 120
+    \item[false] $x$ = $20\sqrt{3}$ et $OM$ = 40
+    \item[false] $x$ = $-120$ et $OM$ = 120
+    \item[true] $x$ = $-20\sqrt{2}$ et $OM$ = 40
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(x, 0)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $x$ = $29$ et $OM$ = 29
+    \item[false] $x$ = $87/2$ et $OM$ = 87
+    \item[false] $x$ = $29\sqrt{3}/2$ et $OM$ = 29
+    \item[false] $x$ = $29\sqrt{2}/2$ et $OM$ = 29
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (30.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x$"] ++ (0:1.73) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["y=$1$"] ++ (90:1.0);
+    \pic ["$\theta=\pi/6$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $2\sqrt{2}$ et $OM$ = 4
+    \item[true] $x$ = $\sqrt{3}$ et $OM$ = 2
+    \item[false] $x$ = $0$ et $OM$ = 2
+    \item[false] $x$ = $1$ et $OM$ = 2
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(0,14)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $OM$ = 14 et $\theta$ = $9\pi/2$
+    \item[false] $OM$ = 14 et $\theta$ = $3\pi/4$
+    \item[false] $OM$ = 14 et $\theta$ = $2\pi/3$
+    \item[false] $OM$ = 42 et $\theta$ = $5\pi/6$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-8\sqrt{3},-8)$. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $OM$ = 48 et $\theta$ = $\pi/6$
+    \item[true] $OM$ = 16 et $\theta$ = $7\pi/6$
+    \item[false] $OM$ = 48 et $\theta$ = $\pi$
+    \item[false] $OM$ = 32 et $\theta$ = $0$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(41,y)$ et pour rayon 41. Que valent l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $41/2$ et $\theta$ = $\pi/6$
+    \item[false] $y$ = $41\sqrt{2}$ et $\theta$ = $\pi/4$
+    \item[true] $y$ = $0$ et $\theta$ = $0$
+    \item[false] $y$ = $123\sqrt{3}/2$ et $\theta$ = $\pi/3$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (180.0:3) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:-3.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$OM=3$, $y=0$};
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/4$
+    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/6$
+    \item[false] $x$ = $3\sqrt{3}$ et $\theta$ = $\pi/3$
+    \item[true] $x$ = $-3$ et $\theta$ = $\pi$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-25\sqrt{2}/2, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $11\pi/4$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $25$ et $OM$ = 50
+    \item[true] $y$ = $25\sqrt{2}/2$ et $OM$ = 25
+    \item[false] $y$ = $0$ et $OM$ = 25
+    \item[false] $y$ = $-25$ et $OM$ = 50
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(-44, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $5\pi$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $y$ = $-22$ et $OM$ = 44
+    \item[true] $y$ = $0$ et $OM$ = 44
+    \item[false] $y$ = $-66\sqrt{2}$ et $OM$ = 132
+    \item[false] $y$ = $-22\sqrt{3}$ et $OM$ = 44
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour coordonnées $(35, y)$ et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $0$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[true] $y$ = $0$ et $OM$ = 35
+    \item[false] $y$ = $35/2$ et $OM$ = 35
+    \item[false] $y$ = $35\sqrt{3}/2$ et $OM$ = 35
+    \item[false] $y$ = $105\sqrt{2}/2$ et $OM$ = 105
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Un vecteur a pour rayon 2 et pour angle $\theta$ (entre le vecteur et l'axe des $x$) $\pi/6$. Que valent les coordonnées $x$ et $y$ de ce vecteur?
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $\sqrt{2}$ et $y$ = $\sqrt{2}$
+    \item[true] $x$ = $\sqrt{3}$ et $y$ = $1$
+    \item[false] $x$ = $0$ et $y$ = $6$
+    \item[false] $x$ = $2$ et $y$ = $2\sqrt{3}$
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\vec{OM}$ ci-dessous? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to [] ++ (0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to [] ++ (0:2.0) coordinate (Mx);
+    \draw[densely dotted] (Mx) to [] ++ (90:0.0);
+    \draw (1,1) node[right]{$y=0$, $\theta=0$};
+    \end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[false] $x$ = $1$ et $OM$ = 2
+    \item[true] $x$ = $2$ et $OM$ = 2
+    \item[false] $x$ = $3\sqrt{2}$ et $OM$ = 6
+    \item[false] $x$ = $3\sqrt{3}$ et $OM$ = 6
+\end{reponses}
+
+\begin{question}{/}{Vecteurs}{2}{1217,31,1213}
+    Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\vec{OM}$? \\ 
+\begin{tikzpicture}[scale=3, axis/.style={->,blue,thick}, vector/.style={-stealth,red,very thick}, vector guide/.style={dashed,red,thick}]
+    \coordinate[label=below  left:O] (O) at (0cm,0cm);
+    \coordinate[label=below  left:] (x) at (1cm,0cm);
+    \draw[axis] (0,0) -- (1,0) node[anchor=north east]{$x$};
+    \draw[axis] (0,0) -- (0,1) node[anchor=north west]{$y$};
+    \draw[-Stealth] (O) to ["$OM=2$",sloped] ++ (210.0:2) coordinate[label=above right:M] (M);
+    \draw[densely dotted] (O) to ["$x=-\sqrt{3}$"] ++ (0:-1.73) coordinate (Mx);
+    \draw[densely dotted] (Mx) to ["$y$"] ++ (90:-1.0);
+    \pic ["$\theta$", draw=red,->, angle radius = 12mm, angle eccentricity=1.3] {angle = x--O--M};
+\end{tikzpicture}
+\end{question}
+
+\begin{reponses}
+    \item[true] $y$ = $-1$ et $\theta$ = $7\pi/6$
+    \item[false] $y$ = $3$ et $\theta$ = $\pi/6$
+    \item[false] $y$ = $0$ et $\theta$ = $\pi$
+    \item[false] $y$ = $0$ et $\theta$ = $0$
 \end{reponses}
 

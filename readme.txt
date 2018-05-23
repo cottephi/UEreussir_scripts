@@ -14,6 +14,7 @@ or
   100_scalar_products.sh
 or
   100_powers_of_ten.sh difficulty
+Only works on UNIX systems (like linux). If you do not have a linux system... install one :)
   
 The output will be placed in the txt file which name corresponds to the exercice type.
 
