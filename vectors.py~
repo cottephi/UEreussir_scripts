@@ -171,7 +171,7 @@ initial = initials[random.SystemRandom(0).randint(0,5)]
 r, sx, sy, fx, fy, stheta, ftheta = get_all(method)
 
 question = ""
-answer = ""
+true = ""
 distractor1 = ""
 distractor2 = ""
 distractor3 = ""
@@ -182,7 +182,7 @@ if initial == "xy":
     question = "Un vecteur a pour coordonnées $(" + sx[0] + "," + sy[0] + ")$. Que valent l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ de ce vecteur?"
   else:
     question = "Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et le rayon $OM$ du vecteur $\\vec{OM}$? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  answer = "$OM$ = " + str(r[0]) + " et $\\theta$ = $" + stheta[0] + "$"
+  true = "$OM$ = " + str(r[0]) + " et $\\theta$ = $" + stheta[0] + "$"
   distractor1 = "$OM$ = " + str(r[1]) + " et $\\theta$ = $" + stheta[1] + "$"
   distractor2 = "$OM$ = " + str(r[2]) + " et $\\theta$ = $" + stheta[2] + "$"
   distractor3 = "$OM$ = " + str(r[3]) + " et $\\theta$ = $" + stheta[3] + "$"    
@@ -193,7 +193,7 @@ if initial == "xr":
     question = "Un vecteur a pour coordonnées $(" + sx[0] + ",y)$ et pour rayon " + str(r[0]) + ". Que valent l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ de ce vecteur?"
   else:
     question = "Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $y$ du vecteur $\\vec{OM}$? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  answer = "$y$ = $" + sy[0] + "$ et $\\theta$ = $" + stheta[0] + "$"
+  true = "$y$ = $" + sy[0] + "$ et $\\theta$ = $" + stheta[0] + "$"
   distractor1 = "$y$ = $" + sy[1] + "$ et $\\theta$ = $" + stheta[1] + "$"
   distractor2 = "$y$ = $" + sy[2] + "$ et $\\theta$ = $" + stheta[2] + "$"
   distractor3 = "$y$ = $" + sy[3] + "$ et $\\theta$ = $" + stheta[3] + "$"
@@ -204,7 +204,7 @@ if initial == "yr":
     question = "Un vecteur a pour coordonnées $(x, " + sy[0] + ")$ et pour rayon " + str(r[0]) + ". Que valent l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ de ce vecteur?"
   else:
     question = "Parmis les valeurs ci-dessous, lesquelles peuvent être égales à l'angle $\\theta$ (entre le vecteur et l'axe des $x$) et la coordonnée $x$ du vecteur $\\vec{OM}$? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  answer = "$x$ = $" + sx[0] + "$ et $\\theta$ = $" + stheta[0] + "$"
+  true = "$x$ = $" + sx[0] + "$ et $\\theta$ = $" + stheta[0] + "$"
   distractor1 = "$x$ = $" + sx[1] + "$ et $\\theta$ = $" + stheta[1] + "$"
   distractor2 = "$x$ = $" + sx[1] + "$ et $\\theta$ = $" + stheta[2] + "$"
   distractor3 = "$x$ = $" + sx[1] + "$ et $\\theta$ = $" + stheta[3] + "$"
@@ -215,7 +215,7 @@ if initial == "xtheta":
     question = "Un vecteur a pour coordonnées $(" + sx[0] + ", y)$ et pour angle $\\theta$ (entre le vecteur et l'axe des $x$) $" + stheta[0] + "$. Que valent le rayon $OM$ et la coordonnée $y$ de ce vecteur?"
   else:
     question = "Que valent le rayon $OM$ et la coordonnée $y$ du vecteur $\\vec{OM}$ ci-dessous? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  answer = "$y$ = $" + sy[0] + "$ et $OM$ = " + str(r[0])
+  true = "$y$ = $" + sy[0] + "$ et $OM$ = " + str(r[0])
   distractor1 = "$y$ = $" + sy[1] + "$ et $OM$ = " + str(r[1])
   distractor2 = "$y$ = $" + sy[2] + "$ et $OM$ = " + str(r[2])
   distractor3 = "$y$ = $" + sy[3] + "$ et $OM$ = " + str(r[3])
@@ -226,7 +226,7 @@ if initial == "ytheta":
     question = "Un vecteur a pour coordonnées $(x, " + sy[0] + ")$ et pour angle $\\theta$ (entre le vecteur et l'axe des $x$) $" + stheta[0] + "$. Que valent le rayon $OM$ et la coordonnée $x$ de ce vecteur?"
   else:
     question = "Que valent le rayon $OM$ et la coordonnée $x$ du vecteur $\\vec{OM}$ ci-dessous? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  answer = "$x$ = $" + sx[0] + "$ et $OM$ = " + str(r[0])
+  true = "$x$ = $" + sx[0] + "$ et $OM$ = " + str(r[0])
   distractor1 = "$x$ = $" + sx[1] + "$ et $OM$ = " + str(r[1])
   distractor2 = "$x$ = $" + sx[2] + "$ et $OM$ = " + str(r[2])
   distractor3 = "$x$ = $" + sx[3] + "$ et $OM$ = " + str(r[3])
@@ -237,12 +237,12 @@ if initial == "rtheta":
     question = "Un vecteur a pour rayon " + str(r[0]) + " et pour angle $\\theta$ (entre le vecteur et l'axe des $x$) $" + stheta[0] + "$. Que valent les coordonnées $x$ et $y$ de ce vecteur?"
   else:
     question = "Que valent les coordonnées $x$ et $y$ du vecteur $\\vec{OM}$ ci-dessous? \\\\ \n" + graph( sx[0], sy[0], fx[0], fy[0], r[0], stheta[0], ftheta[0], initial)
-  answer = "$x$ = $" + sx[0] + "$ et $y$ = $" + sy[0] + "$"
+  true = "$x$ = $" + sx[0] + "$ et $y$ = $" + sy[0] + "$"
   distractor1 = "$x$ = $" + sx[1] + "$ et $y$ = $" + sy[1] + "$"
   distractor2 = "$x$ = $" + sx[2] + "$ et $y$ = $" + sy[2] + "$"
   distractor3 = "$x$ = $" + sx[3] + "$ et $y$ = $" + sy[3] + "$"
     
-answers = [answer, distractor1, distractor2, distractor3]
+answers = [true, distractor1, distractor2, distractor3]
 
 print_question("/","Vecteurs",2,[1217,31,1213],question,answers)
 

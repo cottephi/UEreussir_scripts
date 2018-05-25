@@ -168,7 +168,7 @@ r1, sx1, sy1, fx1, fy1, stheta1, ftheta1 = get_all(method)
 r2, sx2, sy2, fx2, fy2, stheta2, ftheta2 = get_all(method)
 
 question = ""
-true = ""
+answer = ""
 distractor1 = ""
 distractor2 = ""
 distractor3 = ""
@@ -179,7 +179,7 @@ if initial == "xy":
     question = "Un vecteur $OM$ a pour coordonnées $(" + sx1[0] + "," + sy1[0] + ")$ et un vecteur $OM'$ a pour coordonnées $(" + sx2[0] + "," + sy2[0] + ")$. Que vaut le produit scalair entre ces deux vecteurs?"
   else:
     question = "Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\\\ \n" + graph( sx1[0], sy1[0], fx1[0], fy1[0], r1[0], stheta1[0], ftheta1[0], initial) + " \n " + graph( sx2[0], sy2[0], fx2[0], fy2[0], r2[0], stheta2[0], ftheta2[0], initial, "O", "M'", "x'", "y'")
-  true = "$" + str(int(100*fx1[0]*fx2[0]+fy1[0]*fy2[0])/100) + "$"
+  answer = "$" + str(int(100*fx1[0]*fx2[0]+fy1[0]*fy2[0])/100) + "$"
   distractor1 = "$" + str(int(100*fx1[1]*fx2[1]+fy1[1]*fy2[1])/100) + "$"
   distractor2 = "$" + str(int(100*fx1[2]*fx2[2]+fy1[2]*fy2[2])/100) + "$"
   distractor3 = "$" + str(int(100*fx1[3]*fx2[3]+fy1[3]*fy2[3])/100) + "$"
@@ -191,14 +191,13 @@ if initial == "rtheta":
   else:
     question = "Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\\\ \n" + graph( sx1[0], sy1[0], fx1[0], fy1[0], r1[0], stheta1[0], ftheta1[0], initial) + " \n " + graph( sx2[0], sy2[0], fx2[0], fy2[0], r2[0], stheta2[0], ftheta2[0], initial, "O","M'", "x'", "My'")
   
-  true = "$" + str(int(100*r1[0]*r2[0]*math.cos(ftheta1[0]-ftheta2[0]))/100) + "$"
+  answer = "$" + str(int(100*r1[0]*r2[0]*math.cos(ftheta1[0]-ftheta2[0]))/100) + "$"
   distractor1 = "$" + str(int(100*r1[1]*r2[1]*math.cos(ftheta1[1]-ftheta2[1]))/100) + "$"
   distractor2 = "$" + str(int(100*r1[2]*r2[2]*math.cos(ftheta1[2]-ftheta2[2]))/100) + "$"
   distractor3 = "$" + str(int(100*r1[3]*r2[3]*math.cos(ftheta1[3]-ftheta2[3]))/100) + "$"
     
-answers = [true, distractor1, distractor2, distractor3]
-tags = ["true", "false", "false", "false"]
-index = [0, 1, 2, 3]
-random.shuffle(index)
+answers = [answer, distractor1, distractor2, distractor3]
 
-print_question("1205","Vecteurs",2,[1217,31,1213],question,tags,index,answers)
+print_question("1205","Vecteurs",2,[1217,31,1213],question,answers)
+
+
