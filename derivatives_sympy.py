@@ -15,21 +15,29 @@ def get_function(func, var):
   if func == 'ln':
     return ln(var)
 
-def get_domaine(func):
-  if func == 'ln':
-    return "\\mathbb{R}^{+*}"
-  else:
-    return "\\mathbb{R}"
-    
+def get_domaine(funcs, div = False, factor = 1):
+  domaine = "\\mathbb{R}"
+  for i in range(0,len(funcs)):
+    if funcs[i] == 'ln':
+      domaine = "\\mathbb{R}^{+*}"
+    if div and i == len(funcs)-1:
+      if funcs[i] == 'ln':
+        domaine = domaine + "/\\{" + str(latex(1/factor)) + "\\}"
+      if funcs[i] == 'cos':
+        domaine = domaine + "/\\{\pm " + str(latex(pi/(2*factor))) + "\\}"
+      if funcs[i] == 'sin':
+        domaine = domaine + "/\\{0," + str(latex(pi/factor)) + "\\}"
+  return domaine
+  
 def get_distractors(a,b,x,func):
   if func == 'exp':
-    return [latex(a*exp(b*x)),latex(a*b*exp(x)),latex(a*b*ln(x))]
+    return [a*exp(b*x),a*b*exp(x),a*b*ln(x)]
   if func == 'cos':
-    return [latex(a*b*sin(b*x)),latex(-a*b*cos(b*x)),latex(-a*b*sin(x))]
+    return [a*b*sin(b*x),-a*b*cos(b*x),-a*b*sin(x)]
   if func == 'sin':
-    return [latex(-a*b*cos(b*x)),latex(-a*b*sin(b*x)),latex(a*b*cos(x))]
+    return [-a*b*cos(b*x),-a*b*sin(b*x),a*b*cos(x)]
   if func == 'ln':
-    return [latex(a*b/x),latex(a*b*exp(b*x)),latex(a/(b*x))]
+    return [a*b/x,a*b*exp(b*x),a/(b*x)]
     
 #themes:
   #functions:
@@ -46,16 +54,16 @@ def get_distractors(a,b,x,func):
     #9: af(Sum(bix^gi)) -> 1+i*2 termes to generate, 1 func
     #10: ax^g f(bx) -> 3 termes to generate, 1 func
 theme = random.SystemRandom(0).randint(1,10)
-theme = 1
+theme = 4
 Ntermes = 1
 if theme == 3:
   Ntermes = 2
 elif theme == 2 or theme == 6 or theme == 8 or theme == 9:
   Ntermes = random.SystemRandom(0).randint(2,3)
 Nvalues = {1:3, 2:Ntermes*3, 3:Ntermes*3, 4:4, 5:3, 6:Ntermes*2, 7:4, 8:Ntermes*3, 9:1+Ntermes*2, 10:3}
-Nfuncs = {1:1, 2:Ntermes, 3:Ntermes, 4:3, 5:2, 6:0, 7:0, 8:Ntermes, 9:1, 10:1}
+Nfuncs = {1:1, 2:Ntermes, 3:Ntermes, 4:2, 5:2, 6:0, 7:0, 8:Ntermes, 9:1, 10:1}
 possible_funcs = ['exp','cos','sin','ln']
-variables = ["x","y","z","t","n","m","r","\\theta","\\phi","\\nu","\\mu","\\epsilon","\\varepsilon","\\varphi","\\alpha","\\beta","\\gamma","\\eta","chien","chat","banane"]
+variables = ["x","y","z","t","n","m","r","\\theta","\\phi","\\nu","\\mu","\\epsilon","\\varepsilon","\\varphi","\\alpha","\\beta","\\gamma","\\eta"]
 
 x = symbols(variables[random.SystemRandom(0).randint(0,len(variables)-1)])
 values = []
@@ -73,14 +81,59 @@ for i in range(0,Nvalues[theme]):
 for i in range(0,Nfuncs[theme]):
   funcs.append(possible_funcs[random.SystemRandom(0).randint(0,len(possible_funcs)-1)])
 
-if theme == 1:
-  variable = values[1]*x
-  domaine = get_domaine(funcs[0])
-  function = values[0]*get_function(funcs[0],variable)+values[2]
-  answer = latex(diff(function,x))
-  distractor1, distractor2, distractor3 = get_distractors(values[0],values[1],x,funcs[0])
+div = False
+if theme == 4 or theme == 7:
+  div = True
+domaine = get_domaine(funcs, div, values[-1])
+
+if theme == 1 or theme == 2:
+  answer = 0
+  distractor1 = 0
+  distractor2 = 0
+  distractor3 = 0
+  function = 0
+  for i in range(0,len(funcs)):
+    variable = values[1+3*i]*x
+    fun = values[3*i]*get_function(funcs[i],variable)+values[2+3*i]
+    function = function + fun
+    ans = diff(function,x)
+    answer = answer + ans
+    distr1, distr2, distr3 = get_distractors(values[3*i],values[1+3*i],x,funcs[i])
+    distractor1 = distractor1 + distr1
+    distractor2 = distractor2 + distr2
+    distractor3 = distractor3 + distr3
   
-  question = "Quelle est la dérivée par rapport à $" + latex(x) + "$ de la fonction $f$ définie sur $" + domaine + "$ par $f(" + latex(x) + ")=" + latex(function) + "$?"
-  answers = [answer, distractor1, distractor2, distractor3]
-  print_question("1211","Calcul",2,[],question,answers)
+if theme == 3:
+  function = values[0]*get_function(funcs[0],values[1]*x)*values[2]*get_function(funcs[1],values[3]*x)
+  answer = diff(function,x)
+  distractor1, distractor2, distractor3 = get_distractors(values[0],values[1],x,funcs[0])
+  distractor1 = distractor1*values[2]*get_function(funcs[1],values[3]*x)
+  distractor2 = distractor2*values[2]*get_function(funcs[1],values[3]*x)
+  distractor3 = distractor3*values[2]*get_function(funcs[1],values[3]*x)
+  distr1, distr2, distr3 = get_distractors(values[2],values[3],x,funcs[1])
+  distractor1 = distractor1+distr1*values[0]*get_function(funcs[0],values[1]*x)
+  distractor2 = distractor2+distr2*values[0]*get_function(funcs[0],values[1]*x)
+  distractor3 = distractor3+distr3*values[0]*get_function(funcs[0],values[1]*x)
+  
+if theme == 4:
+  function = values[0]*get_function(funcs[0],values[1]*x)/(values[2]*get_function(funcs[1],values[3]*x))
+  answer = diff(function,x)
+  distractor1, distractor2, distractor3 = get_distractors(values[0],values[1],x,funcs[0])
+  distractor1 = distractor1*values[2]*get_function(funcs[1],values[3]*x)
+  distractor2 = distractor2*values[2]*get_function(funcs[1],values[3]*x)
+  distractor3 = distractor3*values[2]*get_function(funcs[1],values[3]*x)
+  distr1, distr2, distr3 = get_distractors(values[2],values[3],x,funcs[1])
+  distractor1 = distractor1-distr1*values[0]*get_function(funcs[0],values[1]*x)
+  distractor2 = distractor2-distr2*values[0]*get_function(funcs[0],values[1]*x)
+  distractor3 = distractor3-distr3*values[0]*get_function(funcs[0],values[1]*x)
+  distractor1 = distractor1/(values[2]**2 * get_function(funcs[1],values[3]*x)**2 )
+  distractor2 = distractor2/(values[2]**2 * get_function(funcs[1],values[3]*x)**2 )
+  distractor3 = distractor3/(values[2]**2 * get_function(funcs[1],values[3]*x)**2 )
+    
+if answer == 0:
+  exit()
+question = "Quelle est la dérivée par rapport à $" + latex(x) + "$ de la fonction $f$ définie sur $" + domaine + "$ par $f(" + latex(x) + ")=" + latex(function) + "$?"
+answers = [latex(answer), latex(distractor1), latex(distractor2), latex(distractor3)]
+print_question("1211","dérivée",2,[],question,answers)
+  
   
