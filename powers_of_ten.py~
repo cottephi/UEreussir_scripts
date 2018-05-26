@@ -28,8 +28,8 @@ distractor3 = ""
 distractor2 = ""
 distractor1 = ""
 if prefacteur.denominator != 1:
-  answer = "\\frac{"+str(prefacteur.numerator)+"}{"+str(prefacteur.denominator)+"}\\cdot 10^{"+str(exposant)+"}"
-  distractor3 = "\\frac{"+str(prefacteur.numerator)+"}{"+str(prefacteur.denominator)+"}\\cdot 10^{"+str(exposant_wrong)+"}"
+  answer = "$\\frac{"+str(prefacteur.numerator)+"}{"+str(prefacteur.denominator)+"}\\cdot 10^{"+str(exposant)+"}$"
+  distractor3 = "$\\frac{"+str(prefacteur.numerator)+"}{"+str(prefacteur.denominator)+"}\\cdot 10^{"+str(exposant_wrong)+"}$"
 else:
   answer = "$"+str(prefacteur.numerator)+"\\cdot 10^{"+str(exposant)+"}$"
   distractor3 = "$"+str(prefacteur.numerator)+"\\cdot 10^{"+str(exposant_wrong)+"}$"

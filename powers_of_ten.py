@@ -43,4 +43,4 @@ else:
 question = "Que vaut $"+formula+"$?"
 answers = [answer, distractor1, distractor2, distractor3]
 
-print_question("1211","Calcul",2,[],question,answers)
+print_question("1211","Calcul",2,[9],question,answers)

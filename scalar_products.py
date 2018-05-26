@@ -198,6 +198,6 @@ if initial == "rtheta":
     
 answers = [answer, distractor1, distractor2, distractor3]
 
-print_question("1205","Vecteurs",2,[1217,31,1213],question,answers)
+print_question("1205","Vecteurs",2,[9,1217,31,1213],question,answers)
 
 

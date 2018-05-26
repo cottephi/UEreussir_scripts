@@ -191,10 +191,10 @@ if initial == "rtheta":
   else:
     question = "Que vaut le produit scalair entre les deux vecteurs ci-dessous? \\\\ \n" + graph( sx1[0], sy1[0], fx1[0], fy1[0], r1[0], stheta1[0], ftheta1[0], initial) + " \n " + graph( sx2[0], sy2[0], fx2[0], fy2[0], r2[0], stheta2[0], ftheta2[0], initial, "O","M'", "x'", "My'")
   
-  answer = str(int(100*r1[0]*r2[0]*math.cos(ftheta1[0]-ftheta2[0]))/100)
-  distractor1 = str(int(100*r1[1]*r2[1]*math.cos(ftheta1[1]-ftheta2[1]))/100)
-  distractor2 = str(int(100*r1[2]*r2[2]*math.cos(ftheta1[2]-ftheta2[2]))/100)
-  distractor3 = str(int(100*r1[3]*r2[3]*math.cos(ftheta1[3]-ftheta2[3]))/100)
+  answer = "$" + str(int(100*r1[0]*r2[0]*math.cos(ftheta1[0]-ftheta2[0]))/100) + "$"
+  distractor1 = "$" + str(int(100*r1[1]*r2[1]*math.cos(ftheta1[1]-ftheta2[1]))/100) + "$"
+  distractor2 = "$" + str(int(100*r1[2]*r2[2]*math.cos(ftheta1[2]-ftheta2[2]))/100) + "$"
+  distractor3 = "$" + str(int(100*r1[3]*r2[3]*math.cos(ftheta1[3]-ftheta2[3]))/100) + "$"
     
 answers = [answer, distractor1, distractor2, distractor3]
 
