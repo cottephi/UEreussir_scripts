@@ -14,7 +14,7 @@ def print_question(SF, theme, level, dependances, question, answers):
     output = output[:-1] + "}\n    "
   output = output + question + "\n\\end{question}\n\n\\begin{reponses}"
   for i in range(0,len(tags)):
-    output = output + "\n    \\item[" + tags[index[i]]+"] $" + answers[index[i]]+"$"
+    output = output + "\n    \\item[" + tags[index[i]]+"] " + answers[index[i]]
   output = output + "\n\\end{reponses}\n"
 
   print(output)

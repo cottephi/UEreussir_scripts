@@ -10,8 +10,7 @@ or
   python3 derivatives.py
 
 To generate 100 questions, run:
-  100.sh exercise
-exercise being vectors, derivatives, powers_of_ten, or scalar_products
+  100.sh python_script
   
 The output will be placed in the txt file which name corresponds to the exercice type.
 

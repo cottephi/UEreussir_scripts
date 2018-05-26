@@ -202,7 +202,7 @@ if answer == 0:
   exit()
   
 question = "Quelle est la dérivée par rapport à $" + latex(x) + "$ de la fonction $f$ définie sur $" + domaine + "$ par $f(" + latex(x) + ")=" + latex(function) + "$?"
-answers = [latex(answer), latex(distractor1), latex(distractor2), latex(distractor3)]
+answers = ["$"+latex(answer)+"$", "$"+latex(distractor1)+"$", "$"+latex(distractor2)+"$", "$"+latex(distractor3)+"$"]
 print_question("1211","dérivée",2,[],question,answers)
   
   

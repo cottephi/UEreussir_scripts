@@ -61,7 +61,7 @@ def get_distractors(a,b,x,func):
     #9: af(Sum(bix^gi)) -> 1+i*2 termes to generate, 1 func
     #10: ax^g f(bx) -> 3 termes to generate, 1 func
 theme = random.SystemRandom(0).randint(1,10)
-theme = 9
+theme = 10
 Ntermes = 1
 if theme == 3:
   Ntermes = 2

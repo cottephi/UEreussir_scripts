@@ -158,11 +158,6 @@ def get_all(method):
   
   return [r, sx, sy, fx, fy, stheta, ftheta]
 
-difficulty = 1
-if len(sys.argv) == 2:
-  difficulty = int(sys.argv[1])
-  
-
 methods = ["coord","graph"]
 method = methods[random.SystemRandom(0).randint(0,1)]
 initials = ["xy","xr","yr","xtheta","ytheta","rtheta"]

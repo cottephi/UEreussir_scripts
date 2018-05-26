@@ -5,12 +5,8 @@ import fractions
 from print_question import *
 
 
-difficulty = 1
-if len(sys.argv) == 2:
-  difficulty = int(sys.argv[1])
-  
-N = random.SystemRandom(0).randint(1,difficulty)
-M = random.SystemRandom(0).randint(1,difficulty)
+N = random.SystemRandom(0).randint(1,4)
+M = random.SystemRandom(0).randint(1,4)
 a = [ random.SystemRandom(0).randint(1,9) for i in range(0,N) ]
 b = [ random.SystemRandom(0).randint(-10,10) for i in range(0,N) ]
 c = [ random.SystemRandom(0).randint(1,9) for i in range(0,M) ]
