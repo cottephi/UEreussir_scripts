@@ -1,0 +1,12 @@
+Nouveaux thèmes:
+  nombres complexes
+  intégrales -> No scipy module to do that...
+  somme/soustraction de vecteurs
+  cos et sin additions
+  unités (ça va être tendu, j'espère qu'il y a un package python)
+  simplifier des expressions
+  résolutions d'équations (ordre 1)
+  résolutions d'équations (ordre 2)
+  comportements des fonctions importantes
+Améliorations:
+  Varier les distracteurs
