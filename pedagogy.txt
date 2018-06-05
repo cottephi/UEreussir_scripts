@@ -1,0 +1,21 @@
+Dans l'idéal, chaque question doit traiter un et un seul Savoir Faire (je rajouterai la liste au GitHub quand je l'aurai). C'est à dire, si un étudiant n'arrive pas à répondre à la question, il doit être en mesure, à partir de celle-ci, d'identifier la partie du cours à réviser. 
+
+Exemple de quesiton à éviter (j'espère que vous prit LateX-non-compilé LV1): 
+Si vous voulez traiter le Savoir Faire qui consiste à simplifier des fractions en divisant en haut et en bas par un même nombre, il ne faut pas demander
+  "Simplifier \frac{6*\sqrt{2}}{2}^{1/2}"
+Puisqu'il faut alors également savoir manier les pussances et les racines sous forme de puissance. Ce qui est un autre SF.
+
+Dans les faits, il est impossible des traiter un seul savoir faire, on serait réduit à faire des additions niveau primaire. Il y a des savoirs faire que l'on peut supposer acquis. Je commencerais un liste à l'occasion, mais ce sera grosso-merdo additioner-soustraire-multiplier-diviser. 
+Si vous voulez rédiger une question un peu dure en y incorporant un ou plusieurs SF en plus, c'est quand même possible en le précisant. Il y a un argument dédié à cela dans la fonction "print_question", c'est "dependances". Dans ce cas là il faut donner la liste des SF dont dépend le SF traité dans la question.
+Exemple, si je veux vérifier que les étudiants savent utiliser la formule de la chaîne pour dériver une fonction, de fonction, il est nécessaire qu'ils sachent déjà dériver les fonctions usuelles. Je note donc comme SF de question le numéro correspondant à "dérivier des fonctions composées" et commen dépendances "dériver des fonctions usuelles".
+
+Il est imporant aussi de ne pas écrire, dans une même phrase, un truc faux. Je sais que ce n'est pas clair aussi voici un exemple de mauvaise question:
+"Parmis les affirmations suivantes, lesquelles sont justes:"
+  -"e^0=1"
+  -"e^1=0"
+  etc...
+Il faut plutôt la rédiger comme ça:
+"A quoi est égal e^0?"
+ -"0"
+ -"1"
+Ce n'est pas exactement la même question certes. Mais ici, chaque ligne, prise toute seule, n'a pas de valeur de vérité. Et donc si le cerveau l'enregistre dans la mémoire à long terme, il n'enregistre pas une fausse information, mais une information sans valeur, ce qui est moins grave.

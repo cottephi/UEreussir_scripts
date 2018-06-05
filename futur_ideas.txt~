@@ -1,9 +1,13 @@
-nombres complexes
-intégrales -> No scipy module to do that...
-somme/soustraction de vecteurs
-cos et sin additions
-unités (ça va être tendu, j'espère qu'il y a un package python)
-simplifier des expressions
-résolutions d'équations (ordre 1)
-résolutions d'équations (ordre 2)
-comportements des fonctions importantes
+Nouveaux thèmes:
+  nombres complexes
+  intégrales -> No scipy module to do that...
+  somme/soustraction de vecteurs
+  cos et sin additions
+  unités (ça va être tendu, j'espère qu'il y a un package python)
+  simplifier des expressions
+  résolutions d'équations (ordre 1)
+  résolutions d'équations (ordre 2)
+  comportements des fonctions importantes
+Améliorations:
+  Varier les distracteurs
+  Modifier l'environnement LateX "reponse" (dans LateX_requierements.txt) afin de pouvoir ajouter des commentaires à chaque réponse fausse, qui n'apparait que dans la version corrigée. Ces commentaires indiqueraient aux étudiants la faute qu'ils ont faite, ils seront donc dépendant des distracteurs choisis. Ajouter aussi la possibilité de ne pas sortir les commentaires dans l'output .tex, car ce n'est pas certain que la database de l'institut puisse les accueillir.
