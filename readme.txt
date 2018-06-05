@@ -1,3 +1,7 @@
+###########################################################################
+################################authors####################################
+#####  Philippe Cotte cottephi@gmail.com
+
 python scripts to generate QCM questions. The output is in LateX format, ready to compile on overleaf  or sharelatex. To compile locally, please check you have the appropriate packages (check LateX_requierements.tex and look for the \usepackage commands)
 
 To generate a question, run:
