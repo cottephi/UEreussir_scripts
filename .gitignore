@@ -5,3 +5,7 @@
 *.gz
 *~
 __pycache__
+
+\.vscode/
+
+\.vs/
