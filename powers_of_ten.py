@@ -9,6 +9,7 @@ p = 1000 # number of significant numbers
 # function to format to LaTeX
 
 def Sci(significand,power):
+    significand = arrond(significand,p)
     if significand == int(significand):
         significand = int(significand)
     if power == 0:
@@ -19,14 +20,27 @@ def Sci(significand,power):
 def formula(NumberOfNumerator, NumberOfDenominator, NumeratorSignificands, DenominatorSignificands, NumeratorPowers, DenominatorPowers):
     result = "\\frac{"
     for i in range(NumberOfNumerator):
-        result += Sci(NumeratorSignificands[i],NumeratorPowers[i]) + " \\times " 
-    result = result[:-8] + "}{"    
+        result += Sci(NumeratorSignificands[i],NumeratorPowers[i]) + " \\times "
+    result = result[:-8] + "}{"
     for i in range(NumberOfDenominator):
-        result += Sci(DenominatorSignificands[i],DenominatorPowers[i]) + " \\times " 
-    result = result[:-8] + "}" 
+        result += Sci(DenominatorSignificands[i],DenominatorPowers[i]) + " \\times "
+    result = result[:-8] + "}"
     return result
 
 
+
+
+def arrond(n,m):
+    """
+    return n with m significant numbers
+    """
+    n = float(n)
+    s = abs(int(n*m)*10-int(n*m*10))
+    if s < 5:
+        r = int(n*m)/m
+    else:
+        r = int((n*m)+(n/abs(n)))/m
+    return r
 
 def prod(T):
     R = 1
@@ -151,7 +165,7 @@ for e in T:
 
 
 """
-
+previus code
 
 import random
 import sys
