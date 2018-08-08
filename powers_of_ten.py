@@ -15,7 +15,7 @@ def Sci(significand,power):
     if power == 0:
         return significand
     else:
-        return "{0} \\times 10^{1}".format(significand,int(power))
+        return str(significand) + " \\times 10^{"+ str(int(power)) + "}"
 
 def formula(NumberOfNumerator, NumberOfDenominator, NumeratorSignificands, DenominatorSignificands, NumeratorPowers, DenominatorPowers):
     result = "\\frac{"
@@ -165,12 +165,29 @@ while calc(a,b,c,d,sum,sub,sum,sub)[0]==0:
 
 
 
-Q = "Que vaut $"+formula(N,M,a,b,c,d)+"$?"
-Dist = distractors(a,b,c,d)
-Awn = answer(a,b,c,d)
+Question = "Que vaut $"+formula(N,M,a,b,c,d)+"$?"
+Distractors = distractors(a,b,c,d)
+Awnser = answer(a,b,c,d)
 
-print(Q)
 
-for distractor in Dist:
-    print(distractor)
-print(Awn)
+AllAwnsers = Distractors.append(Awnser)
+AllAwnsers.reverse();
+
+print_question("1211","Calcul",2,[9],Question,AllAwnsers)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
