@@ -42,6 +42,12 @@ def arrond(n,m):
         r = int((n*m)+(n/abs(n)))/m
     return r
 
+def randPosNeg():
+    """
+    return -1 or +1 with 50%
+    """
+    return random.SystemRandom(0).randint(0,1)*2-1
+
 def prod(T):
     R = 1
     for e in T:
@@ -103,10 +109,12 @@ def answer(NumeratorSignificands, DenominatorSignificands, NumeratorPowers, Deno
 
 
 
+##########################################################################################################################################################
+###############################################################Program start##############################################################################
+##########################################################################################################################################################
 
 
-
-
+#init
 N = random.SystemRandom(0).randint(1,4)
 M = random.SystemRandom(0).randint(1,4)
 a = [ random.SystemRandom(0).randint(1,9) for i in range(0,N) ] # Numerator   Significand Table
@@ -116,6 +124,7 @@ d = [ random.SystemRandom(0).randint(1,9) for i in range(0,M) ] # Denominator Po
 
 
 
+# max p significant numbers ####################################################
 tmp = div([prod(a),prod(b)]) * p
 while int(tmp) != tmp:
     a = [ random.SystemRandom(0).randint(1,9) for i in range(0,N) ]
@@ -129,74 +138,39 @@ while int(tmp) != tmp:
     d = [ random.SystemRandom(0).randint(1,9) for i in range(0,M) ]
     tmp = div([prod(c),prod(d)])
 
+################################################################################
 
 
 
- # randomizing negatives numbers
- # (random.SystemRandom(0).randint(0,1)*2-1) = +1 or -1 at 50%
+# randomizing negatives numbers ################################################
 for i in range(N):
-    a[i] *= (random.SystemRandom(0).randint(0,1)*2-1)
-    c[i] *= (random.SystemRandom(0).randint(0,1)*2-1)
+    a[i] *= randPosNeg()
+    c[i] *= randPosNeg()
 
 for i in range(M):
-    b[i] *= (random.SystemRandom(0).randint(0,1)*2-1)
-    d[i] *= (random.SystemRandom(0).randint(0,1)*2-1)
+    b[i] *= randPosNeg()
+    d[i] *= randPosNeg()
+
+# debuging the 2 awnser error (from the comit : b78af243e5e1bc39caed92f77f87f916fbfd4ab8)
+while calc(a,b,c,d,sum,sub,sum,sub)[0]==0:
+    for i in range(N):
+        a[i] *= randPosNeg()
+        c[i] *= randPosNeg()
+
+    for i in range(M):
+        b[i] *= randPosNeg()
+        d[i] *= randPosNeg()
+################################################################################
 
 
 
 
+Q = "Que vaut $"+formula(N,M,a,b,c,d)+"$?"
+Dist = distractors(a,b,c,d)
+Awn = answer(a,b,c,d)
 
+print(Q)
 
-question = "Que vaut $"+formula(N,M,a,b,c,d)+"$?"
-
-
-
-
-
-T = distractors(a,b,c,d)
-T.append(answer(a,b,c,d))
-
-print(question + "\n")
-
-for e in T:
-    print(e)
-
-
-
-
-"""
-previus code
-
-import random
-import sys
-import numpy as np
-import fractions
-from print_question import *
-
-
-
-
-
-N = random.SystemRandom(0).randint(1,4)
-M = random.SystemRandom(0).randint(1,4)
-a = [ random.SystemRandom(0).randint(1,9) for i in range(0,N) ]
-b = [ random.SystemRandom(0).randint(-10,10) for i in range(0,N) ]
-c = [ random.SystemRandom(0).randint(1,9) for i in range(0,M) ]
-d = [ random.SystemRandom(0).randint(-10,10) for i in range(0,M) ]
-
-
-
-formula = "\\frac{"
-for i in range(0,N):
-  formula = formula + str(a[i])+"\\cdot 10^{"+str(b[i])+"}\\times "
-formula = formula[:-7]+"}{"
-for i in range(0,M):
-  formula = formula + str(c[i])+"\\cdot 10^{"+str(d[i])+"}\\times "
-formula = formula[:-7]+"}"
-
-
-question = "Que vaut $"+formula+"$?"
-answers = [answer, distractor1, distractor2, distractor3]
-
-print_question("1211","Calcul",2,[9],question,answers)
-"""
+for distractor in Dist:
+    print(distractor)
+print(Awn)
